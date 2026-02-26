@@ -1,0 +1,836 @@
+Programmation;Bases du C;QCM;Quelle est la taille d'un pointeur sur un système 64-bit ?;3;2 octets|4 octets|8 octets|Dépend du type;1
+Programmation;Bases du C;QCM;Quel mot-clé permet de déclarer une constante en C ?;1;const|define|static|final;1
+Programmation;Bases du C;QCM;Quelle fonction permet d'allouer dynamiquement de la mémoire en C ?;2;alloc()|malloc()|new()|create();1
+Programmation;Bases du C;QCM;Quel est le résultat de sizeof(char) en C ?;1;1|2|4|8;1
+Programmation;Bases du C;QCM;Quelle bibliothèque standard contient printf() ?;1;stdio.h|stdlib.h|string.h|math.h;1
+Programmation;Bases du C;QCM;Quel est le type de retour de main() ?;2;void|int|char|float;1
+Programmation;Bases du C;QCM;Comment déclarer une variable entière en C ?;1;int x;|integer x;|var x;|num x;;1
+Programmation;Bases du C;QCM;Quelle fonction libère la mémoire allouée dynamiquement ?;2;delete()|free()|remove()|clear();1
+Programmation;Bases du C;QCM;Quel symbole termine une instruction en C ?;3;.|,|;|:;1
+Programmation;Bases du C;QCM;Comment écrire un commentaire sur une ligne en C ?;2;/* commentaire */|// commentaire|# commentaire|-- commentaire;1
+Programmation;Bases du C;QCM;Quelle est la valeur de retour de main() en cas de succès ?;1;0|1|-1|NULL;1
+Programmation;Bases du C;QCM;Comment inclure une bibliothèque standard en C ?;1;#include <nom.h>|import nom|using nom|require nom;1
+Programmation;Bases du C;QCM;Quel est le type de 3.14 en C ?;3;int|float|double|decimal;1
+Programmation;Bases du C;QCM;Comment déclarer une chaîne de caractères en C ?;2;string s;|char s[];|text s;|varchar s;;1
+Programmation;Bases du C;QCM;Quelle fonction copie une chaîne en C ?;3;copy()|strdup()|strcpy()|memcpy();1
+Programmation;Bases du C;QCM;Quel est le résultat de 5 / 2 en C (division entière) ?;2;2.5|2|3|2.0;1
+Programmation;Bases du C;QCM;Comment déclarer un tableau de 10 entiers ?;1;int tab[10];|array<int, 10> tab;|int tab(10);|vector<int> tab(10);;1
+Programmation;Bases du C;QCM;Quelle fonction lit une chaîne depuis stdin ?;2;read()|gets() ou fgets()|input()|scanf();1
+Programmation;Bases du C;QCM;Quel est le type de NULL en C ?;4;int|char|void|void*;1
+Programmation;Bases du C;QCM;Comment comparer deux chaînes en C ?;3;==|equals()|strcmp()|compare();1
+Programmation;Pointeurs;QCM;Que signifie l'opérateur * appliqué à un pointeur ?;2;Adresse|Déréférencement|Multiplication|Déclaration;1
+Programmation;Pointeurs;QCM;Comment déclarer un pointeur sur un entier en C ?;1;int *p;|int p*;|pointer int p;|int &p;;1
+Programmation;Pointeurs;QCM;Que retourne l'opérateur & appliqué à une variable ?;1;Son adresse|Sa valeur|Son type|Sa taille;1
+Programmation;Pointeurs;QCM;Qu'est-ce qu'un pointeur NULL ?;3;Pointeur vers 0|Pointeur invalide|Pointeur qui ne pointe nulle part|Pointeur vers la pile;1
+Programmation;Pointeurs;QCM;Comment accéder à la valeur pointée par p ?;1;*p|&p|p*|p&;1
+Programmation;Pointeurs;QCM;Quelle est la taille d'un pointeur sur un système 32-bit ?;2;2 octets|4 octets|8 octets|16 octets;1
+Programmation;Pointeurs;QCM;Que fait p++ sur un pointeur d'entiers ?;3;Incrémente la valeur pointée|Ne fait rien|Avance de sizeof(int) octets|Incrémente de 1 octet;1
+Programmation;Pointeurs;QCM;Comment déclarer un pointeur sur un pointeur ?;2;int *p;|int **p;|int ***p;|pointer pointer int p;;1
+Programmation;Pointeurs;QCM;Qu'est-ce qu'un pointeur void* ?;1;Pointeur générique|Pointeur nul|Pointeur invalide|Pointeur vers void;1
+Programmation;Pointeurs;QCM;Que fait l'expression &array[i] ?;4;Valeur de l'élément|Indice|Type|Adresse de l'élément;1
+Programmation;Pointeurs;QCM;Comment allouer un tableau dynamique de 10 entiers ?;2;int *p = new int[10];|int *p = malloc(10 * sizeof(int));|int *p = alloc(10);|int p[10];;1
+Programmation;Pointeurs;QCM;Que fait realloc() ?;3;Alloue de la mémoire|Libère de la mémoire|Redimensionne un bloc mémoire|Copie de la mémoire;1
+Programmation;Pointeurs;QCM;Qu'est-ce qu'un pointeur constant ?;2;Pointeur NULL|Pointeur dont l'adresse ne peut pas changer|Pointeur rapide|Pointeur statique;1
+Programmation;Pointeurs;QCM;Comment déclarer un pointeur constant vers un entier ?;3;const int p;|int const *p;|int * const p;|const int * const p;;1
+Programmation;Pointeurs;QCM;Que fait calloc() par rapport à malloc() ?;4;Rien de différent|Alloue plus vite|Alloue moins|Initialise à zéro;1
+Programmation;Structures;QCM;Quel mot-clé permet de définir une structure en C ?;2;class|struct|type|record;1
+Programmation;Structures;QCM;Comment accéder à un membre d'une structure via un pointeur ?;2;.|->|::|@;1
+Programmation;Structures;QCM;Comment déclarer une variable de type structure ?;1;struct Point p;|Point p;|structure Point p;|type Point p;;1
+Programmation;Structures;QCM;Que fait typedef avec une structure ?;3;Crée une copie|Initialise|Crée un alias de type|Supprime;1
+Programmation;Structures;QCM;Comment initialiser une structure en C ?;2;Point p = Point(1, 2);|Point p = {1, 2};|Point p(1, 2);|Point p = new Point(1, 2);;1
+Programmation;Structures;QCM;Quelle est la taille d'une structure ?;4;Somme des membres|Toujours 4 octets|Toujours 8 octets|Somme + padding;1
+Programmation;Structures;QCM;Comment passer une structure à une fonction efficacement ?;3;Par valeur|Par copie|Par pointeur|Par référence;1
+Programmation;Structures;QCM;Peut-on avoir des fonctions dans une structure C ?;2;Oui|Non|Seulement des pointeurs de fonction|Seulement en C++;1
+Programmation;Structures;QCM;Comment accéder au membre x d'une structure s ?;1;s.x|s->x|s::x|s[x];1
+Programmation;Structures;QCM;Qu'est-ce qu'une union en C ?;2;Plusieurs structures|Membres partagent la même mémoire|Structure spéciale|Type de pointeur;1
+Programmation;Structures;QCM;Comment copier une structure en C ?;3;copy()|duplicate()|Affectation directe ou memcpy()|clone();1
+Programmation;Structures;QCM;Peut-on comparer deux structures avec == ?;2;Oui|Non, il faut comparer membre par membre|Oui si typedef|Oui si petite;1
+Programmation;Structures;QCM;Qu'est-ce que le padding dans une structure ?;4;Erreur|Bug|Donnée inutile|Octets ajoutés pour l'alignement;1
+Programmation;Structures;QCM;Comment déclarer un tableau de structures ?;1;struct Point tab[10];|Point tab[10];|array<Point> tab;|Point[] tab;;1
+Programmation;Structures;QCM;Peut-on avoir une structure récursive ?;3;Oui|Non|Oui avec un pointeur|Seulement en C++;1
+Programmation;Fichiers;QCM;Quelle fonction ouvre un fichier en C ?;2;open()|fopen()|file_open()|openfile();1
+Programmation;Fichiers;QCM;Quel mode d'ouverture permet de lire un fichier ?;1;r|w|a|x;1
+Programmation;Fichiers;QCM;Quel mode d'ouverture permet d'écrire dans un fichier ?;2;r|w|x|d;1
+Programmation;Fichiers;QCM;Quelle fonction ferme un fichier ?;1;fclose()|close()|file_close()|closefile();1
+Programmation;Fichiers;QCM;Quelle fonction lit une ligne d'un fichier ?;3;fread()|fscanf()|fgets()|getline();1
+Programmation;Fichiers;QCM;Quelle fonction écrit dans un fichier ?;2;fwrite() ou fprintf()|write()|print()|output();1
+Programmation;Fichiers;QCM;Comment vérifier si un fichier est ouvert avec succès ?;3;Toujours vrai|Vérifier errno|Vérifier si le pointeur est NULL|Utiliser ferror();1
+Programmation;Fichiers;QCM;Quel mode ouvre un fichier en ajout ?;3;r|w|a|x;1
+Programmation;Fichiers;QCM;Quelle fonction positionne le curseur dans un fichier ?;1;fseek()|fpos()|fmove()|fgoto();1
+Programmation;Fichiers;QCM;Comment lire un caractère d'un fichier ?;2;fread()|fgetc()|getchar()|readchar();1
+Programmation;Fichiers;QCM;Que signifie le mode "r+" ?;4;Lecture seule|Écriture seule|Ajout|Lecture et écriture;1
+Programmation;Fichiers;QCM;Que signifie le mode "w+" ?;3;Lecture seule|Écriture seule|Lecture et écriture (écrase)|Ajout;1
+Programmation;Fichiers;QCM;Comment vérifier la fin d'un fichier ?;2;iseof()|feof()|end()|finished();1
+Programmation;Fichiers;QCM;Quelle fonction écrit un caractère dans un fichier ?;3;write()|putc()|fputc()|writechar();1
+Programmation;Fichiers;QCM;Comment obtenir la taille d'un fichier ?;4;filesize()|size()|length()|fseek() + ftell();1
+Programmation;Tableaux;QCM;Comment déclarer un tableau de 10 entiers en C ?;1;int tab[10];|int tab(10);|array int[10];|int[10] tab;;1
+Programmation;Tableaux;QCM;Quel est l'indice du premier élément d'un tableau en C ?;1;0|1|-1|Dépend de la déclaration;1
+Programmation;Tableaux;QCM;Comment accéder au 3ème élément d'un tableau tab ?;3;tab.3|tab(3)|tab[2]|tab->3;1
+Programmation;Tableaux;QCM;Quelle est la relation entre tableaux et pointeurs ?;2;Aucune|Le nom du tableau est un pointeur constant|Identiques|Opposés;1
+Programmation;Tableaux;QCM;Comment déclarer un tableau 2D de 3x4 entiers ?;1;int tab[3][4];|int tab[3,4];|int tab(3)(4);|array int[3][4];;1
+Programmation;Tableaux;QCM;Comment initialiser un tableau à zéro ?;2;int tab[10] = 0;|int tab[10] = {0};|int tab[10] = {};|memset(tab, 0);;1
+Programmation;Tableaux;QCM;Que retourne sizeof(tab) pour int tab[10] ?;3;10|4|40|Dépend du système;1
+Programmation;Tableaux;QCM;Comment passer un tableau à une fonction ?;4;Par valeur|Par copie|Par référence|Par pointeur (automatique);1
+Programmation;Tableaux;QCM;Peut-on retourner un tableau local d'une fonction ?;2;Oui|Non (comportement indéfini)|Oui avec malloc|Seulement en C++;1
+Programmation;Tableaux;QCM;Comment déclarer un tableau de chaînes de caractères ?;1;char *tab[] ou char tab[][N];|string tab[];|char[] tab[];|text tab[];;1
+Programmation;Tableaux;QCM;Comment parcourir un tableau de n éléments ?;3;while(tab)|foreach(tab)|for(int i=0; i<n; i++)|for(tab);1
+Programmation;Tableaux;QCM;Peut-on modifier la taille d'un tableau statique ?;2;Oui|Non|Oui avec realloc|Oui avec resize;1
+Programmation;Tableaux;QCM;Comment copier un tableau ?;4;tab2 = tab1|copy(tab1, tab2)|tab2[] = tab1[]|Boucle ou memcpy();1
+Programmation;Tableaux;QCM;Que fait tab[i] en termes de pointeurs ?;2;tab + i|*(tab + i)|&tab + i|tab->i;1
+Programmation;Tableaux;QCM;Comment déclarer un tableau de taille variable (C99) ?;3;int tab[n] (interdit)|int *tab = malloc(n)|int tab[n] (VLA)|array<int> tab(n);;1
+Programmation;Fonctions;QCM;Comment passer un tableau à une fonction en C ?;3;Par valeur|Par copie|Par pointeur|Par référence;1
+Programmation;Fonctions;QCM;Que signifie void comme type de retour ?;2;Erreur|Aucun retour|Retour multiple|Retour optionnel;1
+Programmation;Fonctions;QCM;Comment déclarer une fonction qui ne prend pas de paramètres ?;2;func()|func(void)|func(NULL)|func(empty);1
+Programmation;Fonctions;QCM;Qu'est-ce qu'un prototype de fonction ?;1;Déclaration de la fonction|Définition de la fonction|Appel de la fonction|Pointeur de fonction;1
+Programmation;Fonctions;QCM;Où placer les prototypes de fonctions ?;3;Après main|Dans main|Avant main ou dans un .h|N'importe où;1
+Programmation;Fonctions;QCM;Comment retourner plusieurs valeurs d'une fonction ?;4;return a, b;|Impossible|return {a, b};|Via pointeurs en paramètres;1
+Programmation;Fonctions;QCM;Qu'est-ce qu'une fonction inline ?;2;Fonction récursive|Fonction insérée au point d'appel|Fonction statique|Fonction externe;1
+Programmation;Fonctions;QCM;Que signifie static pour une fonction ?;3;Fonction rapide|Fonction constante|Fonction visible uniquement dans le fichier|Fonction globale;1
+Programmation;Fonctions;QCM;Comment déclarer un pointeur de fonction ?;1;int (*func)(int);|int *func(int);|int func*(int);|pointer func(int);;1
+Programmation;Fonctions;QCM;Qu'est-ce que la surcharge de fonctions ?;4;Fonction lourde|Fonction complexe|Fonction récursive|Plusieurs fonctions même nom (C++ uniquement);1
+Programmation;Fonctions;QCM;Que sont les paramètres variadiques ?;3;Paramètres variables|Paramètres optionnels|Nombre variable de paramètres|Paramètres par défaut;1
+Programmation;Fonctions;QCM;Comment déclarer une fonction variadique ?;2;func(...)|func(int n, ...)|func(var args)|func(params[]);1
+Programmation;Fonctions;QCM;Qu'est-ce qu'une fonction récursive terminale ?;4;Dernière fonction|Fonction simple|Fonction rapide|Appel récursif en dernière instruction;1
+Programmation;Fonctions;QCM;Peut-on avoir des fonctions imbriquées en C standard ?;2;Oui|Non|Oui en C99|Oui avec GCC;1
+Programmation;Fonctions;QCM;Que fait l'attribut const sur un paramètre pointeur ?;3;Rend le pointeur constant|Rend la fonction constante|Empêche la modification de la valeur pointée|Optimise la fonction;1
+Programmation;Récursivité;QCM;Qu'est-ce qu'une fonction récursive ?;2;Une fonction sans paramètres|Une fonction qui s'appelle elle-même|Une fonction inline|Une fonction statique;1
+Programmation;Récursivité;QCM;Quel est le risque principal de la récursivité ?;3;Lenteur|Complexité|Débordement de pile|Fuite mémoire;1
+Programmation;Récursivité;QCM;Qu'est-ce qu'un cas de base en récursivité ?;1;Condition d'arrêt|Premier appel|Dernier appel|Cas général;1
+Programmation;Récursivité;QCM;Quelle structure de données est utilisée pour les appels récursifs ?;1;Pile|File|Arbre|Liste;1
+Programmation;Récursivité;QCM;Qu'est-ce que la récursivité terminale ?;3;Dernière fonction|Récursivité simple|Appel récursif en dernière instruction|Récursivité infinie;1
+Programmation;Récursivité;QCM;Peut-on toujours remplacer la récursivité par une boucle ?;1;Oui|Non|Seulement en C|Seulement en C++;1
+Programmation;Récursivité;QCM;Quel algorithme classique utilise la récursivité ?;2;Tri à bulles|Tri rapide (QuickSort)|Tri par insertion|Recherche linéaire;1
+Programmation;Récursivité;QCM;Qu'est-ce que la récursivité mutuelle ?;4;Récursivité simple|Récursivité terminale|Récursivité infinie|Deux fonctions s'appellent mutuellement;1
+Programmation;Récursivité;QCM;Quel est l'avantage de la récursivité ?;2;Performance|Code plus lisible pour certains problèmes|Moins de mémoire|Plus rapide;1
+Programmation;Récursivité;QCM;Comment éviter le débordement de pile ?;3;Augmenter la pile|Utiliser malloc|Limiter la profondeur ou utiliser itération|Utiliser des threads;1
+Programmation;Récursivité;QCM;Quelle est la complexité de Fibonacci récursif naïf ?;4;O(n)|O(log n)|O(n²)|O(2^n);1
+Programmation;Récursivité;QCM;Comment optimiser Fibonacci récursif ?;3;Augmenter la pile|Utiliser plus de mémoire|Mémoïsation|Ignorer le problème;1
+Programmation;Récursivité;QCM;Qu'est-ce que la récursivité croisée ?;2;Récursivité simple|Deux fonctions s'appellent mutuellement|Récursivité terminale|Récursivité infinie;1
+Programmation;Récursivité;QCM;Quel est le cas de base de la factorielle ?;1;fact(0) = 1|fact(1) = 0|fact(2) = 2|fact(n) = n;1
+Programmation;Récursivité;QCM;Comment calculer la factorielle itérativement ?;4;Impossible|Récursivité|Mémoïsation|Boucle for;1
+Programmation;Pointeurs;Exercice;Expliquez le concept de l'arithmétique des pointeurs et donnez un exemple d'utilisation avec un tableau.;-1;-;15
+Programmation;Structures;Exercice;Écrivez une fonction en C qui crée une liste chaînée et y insère 5 éléments.;-1;-;15
+Programmation;Fichiers;Exercice;Écrivez un programme C qui lit un fichier texte ligne par ligne et compte le nombre de mots.;-1;-;15
+Programmation;Récursivité;Exercice;Implémentez la fonction factorielle de manière récursive et itérative, puis comparez les deux approches.;-1;-;15
+Programmation;Allocation mémoire;Exercice;Expliquez la différence entre malloc() et calloc(), et donnez un exemple d'utilisation de chacun.;-1;-;15
+Programmation;Pointeurs avancés;Exercice;Créez un programme qui utilise des pointeurs de fonctions pour implémenter une calculatrice simple.;-1;-;15
+Programmation;Gestion mémoire;Exercice;Écrivez un programme qui détecte et corrige les fuites mémoire dans un code donné.;-1;-;15
+
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité de la recherche binaire ?;3;O(n)|O(n²)|O(log n)|O(1);1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité du tri à bulles dans le pire cas ?;2;O(n)|O(n²)|O(n log n)|O(log n);1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle notation décrit la borne supérieure d'un algorithme ?;1;Big O|Big Omega|Big Theta|Little o;1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité de l'accès à un élément dans un tableau ?;4;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Complexité;QCM;Que signifie O(1) ?;3;Linéaire|Logarithmique|Constant|Quadratique;1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité de deux boucles imbriquées de n itérations ?;2;O(n)|O(n²)|O(2n)|O(n log n);1
+Algorithmes et Structures de Données;Complexité;QCM;Qu'est-ce que la complexité spatiale ?;1;Mémoire utilisée|Temps d'exécution|Nombre d'opérations|Taille du code;1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle complexité est meilleure : O(n) ou O(log n) ?;2;O(n)|O(log n)|Égales|Dépend des données;1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité de l'algorithme de Fibonacci récursif naïf ?;4;O(n)|O(log n)|O(n²)|O(2^n);1
+Algorithmes et Structures de Données;Complexité;QCM;Que signifie Big Omega (Ω) ?;2;Borne supérieure|Borne inférieure|Borne exacte|Moyenne;1
+Algorithmes et Structures de Données;Complexité;QCM;Que signifie Big Theta (Θ) ?;3;Borne supérieure|Borne inférieure|Borne exacte (sup et inf)|Moyenne;1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité de la recherche linéaire ?;1;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité de l'insertion dans un tableau trié ?;1;O(n)|O(log n)|O(1)|O(n²);1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité de trois boucles imbriquées ?;4;O(n)|O(n²)|O(n log n)|O(n³);1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle complexité est la pire ?;4;O(n)|O(n log n)|O(n²)|O(2^n);1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité de l'accès au dernier élément d'un tableau ?;4;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité de la concaténation de deux chaînes de longueur n ?;1;O(n)|O(1)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité de la recherche dans une table de hachage (moyenne) ?;4;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité du tri par fusion ?;3;O(n)|O(n²)|O(n log n)|O(log n);1
+Algorithmes et Structures de Données;Complexité;QCM;Quelle est la complexité de la suppression dans un tableau ?;1;O(n)|O(1)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Tri;QCM;Quel algorithme de tri a la meilleure complexité moyenne ?;3;Tri à bulles|Tri par insertion|Tri rapide (QuickSort)|Tri par sélection;1
+Algorithmes et Structures de Données;Tri;QCM;Quel tri est stable ?;2;QuickSort|Tri fusion (MergeSort)|HeapSort|Tri rapide;1
+Algorithmes et Structures de Données;Tri;QCM;Quelle est la complexité du tri fusion ?;2;O(n)|O(n log n)|O(n²)|O(log n);1
+Algorithmes et Structures de Données;Tri;QCM;Quel tri a la meilleure complexité dans le pire cas ?;2;QuickSort|MergeSort|BubbleSort|InsertionSort;1
+Algorithmes et Structures de Données;Tri;QCM;Qu'est-ce qu'un tri stable ?;3;Tri rapide|Tri efficace|Préserve l'ordre des éléments égaux|Tri sans comparaison;1
+Algorithmes et Structures de Données;Tri;QCM;Quel tri est le plus simple à implémenter ?;1;Tri à bulles|Tri fusion|Tri rapide|Tri par tas;1
+Algorithmes et Structures de Données;Tri;QCM;Quel tri utilise la technique diviser pour régner ?;3;Tri à bulles|Tri par insertion|Tri fusion|Tri par sélection;1
+Algorithmes et Structures de Données;Tri;QCM;Quelle est la complexité du tri par insertion dans le meilleur cas ?;1;O(n)|O(n²)|O(n log n)|O(log n);1
+Algorithmes et Structures de Données;Tri;QCM;Quel tri est efficace pour des données presque triées ?;2;QuickSort|Tri par insertion|MergeSort|HeapSort;1
+Algorithmes et Structures de Données;Tri;QCM;Qu'est-ce que le tri par comptage ?;4;Tri par comparaison|Tri récursif|Tri itératif|Tri sans comparaison;1
+Algorithmes et Structures de Données;Tri;QCM;Quelle est la complexité du tri par sélection ?;2;O(n)|O(n²)|O(n log n)|O(log n);1
+Algorithmes et Structures de Données;Tri;QCM;Quel tri a la pire complexité dans le pire cas ?;4;MergeSort|HeapSort|InsertionSort|QuickSort (O(n²));1
+Algorithmes et Structures de Données;Tri;QCM;Qu'est-ce que le tri par tas (HeapSort) ?;3;Tri simple|Tri stable|Tri utilisant une structure de tas|Tri récursif;1
+Algorithmes et Structures de Données;Tri;QCM;Quelle est la complexité spatiale du tri fusion ?;2;O(1)|O(n)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Tri;QCM;Quel tri est in-place ?;4;Tri fusion|Tri par comptage|Tri par base|Tri rapide;1
+Algorithmes et Structures de Données;Tri;QCM;Qu'est-ce que le tri par base (Radix Sort) ?;3;Tri par comparaison|Tri récursif|Tri par chiffres/caractères|Tri stable uniquement;1
+Algorithmes et Structures de Données;Tri;QCM;Quelle est la complexité du tri par tas ?;2;O(n)|O(n log n)|O(n²)|O(log n);1
+Algorithmes et Structures de Données;Tri;QCM;Quel tri utilise un pivot ?;1;QuickSort|MergeSort|HeapSort|BubbleSort;1
+Algorithmes et Structures de Données;Tri;QCM;Quelle est la complexité du tri à bulles dans le meilleur cas ?;1;O(n)|O(n²)|O(n log n)|O(log n);1
+Algorithmes et Structures de Données;Tri;QCM;Quel tri est le plus efficace pour de grandes données ?;3;Tri à bulles|Tri par insertion|Tri fusion ou Tri rapide|Tri par sélection;1
+Algorithmes et Structures de Données;Listes;QCM;Quelle est la complexité d'insertion en tête d'une liste chaînée ?;4;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Listes;QCM;Quel avantage a une liste doublement chaînée ?;2;Moins de mémoire|Parcours bidirectionnel|Plus rapide|Plus simple;1
+Algorithmes et Structures de Données;Listes;QCM;Quelle est la complexité de recherche dans une liste chaînée ?;1;O(n)|O(1)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Listes;QCM;Quel est l'avantage d'une liste chaînée sur un tableau ?;3;Accès plus rapide|Moins de mémoire|Insertion/suppression dynamique|Plus simple;1
+Algorithmes et Structures de Données;Listes;QCM;Qu'est-ce qu'une liste circulaire ?;2;Liste vide|Dernier élément pointe vers le premier|Liste triée|Liste doublement chaînée;1
+Algorithmes et Structures de Données;Listes;QCM;Comment supprimer un élément au milieu d'une liste chaînée ?;4;Impossible|Recréer la liste|Utiliser un tableau|Modifier les pointeurs;1
+Algorithmes et Structures de Données;Listes;QCM;Quelle est la complexité de suppression en tête d'une liste chaînée ?;4;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Listes;QCM;Qu'est-ce qu'une liste chaînée simple ?;1;Chaque nœud a un pointeur vers le suivant|Deux pointeurs par nœud|Liste triée|Liste circulaire;1
+Algorithmes et Structures de Données;Listes;QCM;Comment inverser une liste chaînée ?;3;Impossible|Créer une nouvelle liste|Inverser les pointeurs|Trier la liste;1
+Algorithmes et Structures de Données;Listes;QCM;Quel est le désavantage principal d'une liste chaînée ?;2;Insertion lente|Accès séquentiel uniquement|Suppression lente|Trop de mémoire;1
+Algorithmes et Structures de Données;Listes;QCM;Quelle est la complexité d'accès au nième élément d'une liste chaînée ?;1;O(n)|O(1)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Listes;QCM;Comment détecter un cycle dans une liste chaînée ?;4;Impossible|Parcourir deux fois|Utiliser un tableau|Algorithme du lièvre et de la tortue;1
+Algorithmes et Structures de Données;Listes;QCM;Quelle est la complexité d'insertion en queue d'une liste chaînée simple ?;1;O(n)|O(1)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Listes;QCM;Qu'est-ce qu'une liste doublement chaînée ?;2;Liste simple|Chaque nœud a deux pointeurs (suivant et précédent)|Liste circulaire|Liste triée;1
+Algorithmes et Structures de Données;Listes;QCM;Comment fusionner deux listes chaînées triées ?;3;Impossible|Concaténer|Parcourir et insérer en ordre|Trier après concaténation;1
+Algorithmes et Structures de Données;Listes;QCM;Quelle est la complexité de suppression en queue d'une liste chaînée simple ?;1;O(n)|O(1)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Listes;QCM;Comment trouver le milieu d'une liste chaînée ?;4;Impossible|Compter puis parcourir|Utiliser un tableau|Deux pointeurs (lent et rapide);1
+Algorithmes et Structures de Données;Listes;QCM;Quelle est la complexité de suppression en queue d'une liste doublement chaînée ?;4;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Listes;QCM;Comment vérifier si une liste chaînée est palindrome ?;3;Impossible|Utiliser un tableau|Inverser et comparer|Trier;1
+Algorithmes et Structures de Données;Listes;QCM;Quelle est la mémoire supplémentaire d'une liste doublement chaînée par rapport à une liste simple ?;2;Aucune|Un pointeur par nœud|Deux pointeurs par nœud|Dépend de la taille;1
+Algorithmes et Structures de Données;Piles;QCM;Quel principe régit une pile ?;1;LIFO|FIFO|LILO|FILO;1
+Algorithmes et Structures de Données;Piles;QCM;Quelle opération ajoute un élément à une pile ?;2;enqueue|push|insert|add;1
+Algorithmes et Structures de Données;Piles;QCM;Quelle opération retire un élément d'une pile ?;2;dequeue|pop|remove|delete;1
+Algorithmes et Structures de Données;Piles;QCM;Quelle est la complexité de push et pop ?;4;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Piles;QCM;Quelle application utilise une pile ?;3;File d'attente|Arbre|Évaluation d'expressions|Graphe;1
+Algorithmes et Structures de Données;Piles;QCM;Comment implémenter une pile ?;1;Avec un tableau ou une liste chaînée|Seulement avec un tableau|Seulement avec une liste|Avec un arbre;1
+Algorithmes et Structures de Données;Piles;QCM;Qu'est-ce que le débordement de pile ?;2;Pile vide|Pile pleine|Pile inversée|Pile triée;1
+Algorithmes et Structures de Données;Piles;QCM;Quelle opération consulte le sommet sans retirer ?;3;push|pop|peek ou top|empty;1
+Algorithmes et Structures de Données;Piles;QCM;Les appels de fonctions utilisent quelle structure ?;1;Pile|File|Arbre|Graphe;1
+Algorithmes et Structures de Données;Piles;QCM;Comment vérifier si une pile est vide ?;2;Compter les éléments|Vérifier si top est NULL ou size == 0|Faire pop|Faire push;1
+Algorithmes et Structures de Données;Piles;QCM;Que signifie LIFO ?;3;Last In Last In|Last In Last Out|Last In First Out|Last In Forever Out;1
+Algorithmes et Structures de Données;Piles;QCM;Comment inverser une chaîne avec une pile ?;2;Impossible|Empiler puis dépiler|Utiliser deux piles|Trier;1
+Algorithmes et Structures de Données;Piles;QCM;Quelle est la complexité de la recherche dans une pile ?;1;O(n)|O(1)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Piles;QCM;Comment vérifier les parenthèses équilibrées ?;4;Impossible|Compter|Trier|Utiliser une pile;1
+Algorithmes et Structures de Données;Piles;QCM;Quelle est la complexité spatiale d'une pile de n éléments ?;1;O(n)|O(1)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Piles;QCM;Comment implémenter deux piles dans un tableau ?;3;Impossible|Deux tableaux|Une à chaque extrémité|Alterner les éléments;1
+Algorithmes et Structures de Données;Piles;QCM;Quelle notation utilise une pile pour l'évaluation ?;4;Infixe|Préfixe|Suffixe|Postfixe (notation polonaise inverse);1
+Algorithmes et Structures de Données;Piles;QCM;Comment trier une pile ?;3;Impossible|Directement|Utiliser une pile auxiliaire|Convertir en tableau;1
+Algorithmes et Structures de Données;Piles;QCM;Quelle est la différence entre pile et file ?;2;Aucune|LIFO vs FIFO|Taille|Complexité;1
+Algorithmes et Structures de Données;Piles;QCM;Comment implémenter une pile avec deux files ?;4;Impossible|Directement|Utiliser trois files|Transférer les éléments entre files;1
+Algorithmes et Structures de Données;Files;QCM;Quel principe régit une file ?;2;LIFO|FIFO|LILO|Random;1
+Algorithmes et Structures de Données;Files;QCM;Quelle opération retire un élément d'une file ?;1;dequeue|pop|remove|delete;1
+Algorithmes et Structures de Données;Files;QCM;Quelle opération ajoute un élément à une file ?;1;enqueue|push|insert|add;1
+Algorithmes et Structures de Données;Files;QCM;Quelle est la complexité de enqueue et dequeue ?;4;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Files;QCM;Quelle application utilise une file ?;2;Récursivité|Gestion de tâches|Évaluation d'expressions|Tri;1
+Algorithmes et Structures de Données;Files;QCM;Qu'est-ce qu'une file circulaire ?;3;File vide|File triée|File où la fin rejoint le début|File doublement chaînée;1
+Algorithmes et Structures de Données;Files;QCM;Qu'est-ce qu'une file de priorité ?;4;File normale|File circulaire|File vide|File où les éléments ont des priorités;1
+Algorithmes et Structures de Données;Files;QCM;Comment implémenter une file ?;1;Avec un tableau ou une liste chaînée|Seulement avec un tableau|Seulement avec une liste|Avec un arbre;1
+Algorithmes et Structures de Données;Files;QCM;Quelle structure de données implémente une file de priorité ?;3;Pile|File|Tas (heap)|Liste;1
+Algorithmes et Structures de Données;Files;QCM;Qu'est-ce qu'une deque ?;2;File simple|File à double extrémité|Pile|Arbre;1
+Algorithmes et Structures de Données;Files;QCM;Que signifie FIFO ?;3;First In Last Out|First In Forever Out|First In First Out|First In First In;1
+Algorithmes et Structures de Données;Files;QCM;Comment implémenter une file avec deux piles ?;4;Impossible|Directement|Utiliser trois piles|Transférer les éléments entre piles;1
+Algorithmes et Structures de Données;Files;QCM;Quelle est la complexité de la recherche dans une file ?;1;O(n)|O(1)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Files;QCM;Comment vérifier si une file est vide ?;2;Compter les éléments|Vérifier si front == rear ou size == 0|Faire dequeue|Faire enqueue;1
+Algorithmes et Structures de Données;Files;QCM;Quelle est la complexité spatiale d'une file de n éléments ?;1;O(n)|O(1)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Files;QCM;Quel algorithme de parcours de graphe utilise une file ?;2;DFS|BFS|Dijkstra|Kruskal;1
+Algorithmes et Structures de Données;Files;QCM;Comment inverser une file ?;3;Impossible|Directement|Utiliser une pile|Utiliser deux files;1
+Algorithmes et Structures de Données;Files;QCM;Quelle est la différence entre file et pile ?;2;Aucune|FIFO vs LIFO|Taille|Complexité;1
+Algorithmes et Structures de Données;Files;QCM;Comment implémenter une file circulaire dans un tableau ?;4;Impossible|Deux tableaux|Tableau dynamique|Utiliser l'opérateur modulo;1
+Algorithmes et Structures de Données;Files;QCM;Quelle opération consulte le premier élément sans retirer ?;3;enqueue|dequeue|front ou peek|rear;1
+Algorithmes et Structures de Données;Arbres;QCM;Combien d'enfants maximum a un nœud dans un arbre binaire ?;2;1|2|3|Illimité;1
+Algorithmes et Structures de Données;Arbres;QCM;Quel parcours d'arbre visite la racine en premier ?;1;Préfixe|Infixe|Postfixe|En largeur;1
+Algorithmes et Structures de Données;Arbres;QCM;Quelle est la hauteur minimale d'un arbre binaire de recherche équilibré avec n nœuds ?;3;O(n)|O(n²)|O(log n)|O(1);1
+Algorithmes et Structures de Données;Arbres;QCM;Qu'est-ce qu'un arbre binaire de recherche ?;2;Arbre quelconque|Arbre où gauche < racine < droite|Arbre équilibré|Arbre complet;1
+Algorithmes et Structures de Données;Arbres;QCM;Quel parcours donne les éléments triés dans un ABR ?;2;Préfixe|Infixe|Postfixe|En largeur;1
+Algorithmes et Structures de Données;Arbres;QCM;Qu'est-ce qu'un arbre AVL ?;3;Arbre binaire|Arbre quelconque|Arbre binaire de recherche équilibré|Arbre complet;1
+Algorithmes et Structures de Données;Arbres;QCM;Quelle est la complexité de recherche dans un ABR équilibré ?;3;O(n)|O(n²)|O(log n)|O(1);1
+Algorithmes et Structures de Données;Arbres;QCM;Qu'est-ce qu'un arbre rouge-noir ?;4;Arbre coloré|Arbre binaire|Arbre quelconque|Arbre binaire de recherche auto-équilibré;1
+Algorithmes et Structures de Données;Arbres;QCM;Qu'est-ce qu'un tas (heap) ?;2;Arbre quelconque|Arbre binaire complet avec propriété de tas|Liste|Graphe;1
+Algorithmes et Structures de Données;Arbres;QCM;Quelle est la complexité d'insertion dans un tas ?;3;O(1)|O(n)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Arbres;QCM;Qu'est-ce qu'un arbre B ?;4;Arbre binaire|Arbre simple|Arbre rouge-noir|Arbre équilibré multi-voies;1
+Algorithmes et Structures de Données;Arbres;QCM;Quelle est la complexité de suppression dans un ABR équilibré ?;3;O(1)|O(n)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Arbres;QCM;Qu'est-ce qu'un arbre complet ?;3;Arbre plein|Arbre équilibré|Tous les niveaux remplis sauf le dernier|Arbre binaire;1
+Algorithmes et Structures de Données;Arbres;QCM;Qu'est-ce qu'un arbre parfait ?;2;Arbre équilibré|Tous les niveaux complètement remplis|Arbre binaire|Arbre de recherche;1
+Algorithmes et Structures de Données;Arbres;QCM;Quelle est la hauteur d'un arbre avec un seul nœud ?;1;0|1|-1|2;1
+Algorithmes et Structures de Données;Arbres;QCM;Comment calculer la hauteur d'un arbre ?;4;Compter les nœuds|Impossible|Parcourir en largeur|Max(hauteur gauche, hauteur droite) + 1;1
+Algorithmes et Structures de Données;Arbres;QCM;Qu'est-ce qu'un arbre dégénéré ?;3;Arbre équilibré|Arbre parfait|Arbre qui ressemble à une liste|Arbre vide;1
+Algorithmes et Structures de Données;Arbres;QCM;Quelle est la complexité du parcours d'un arbre de n nœuds ?;1;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Arbres;QCM;Comment vérifier si un arbre est un ABR ?;4;Impossible|Compter les nœuds|Parcourir en largeur|Parcours infixe doit être trié;1
+Algorithmes et Structures de Données;Arbres;QCM;Qu'est-ce qu'un arbre de Huffman ?;3;Arbre binaire|Arbre de recherche|Arbre de compression|Arbre équilibré;1
+Algorithmes et Structures de Données;Arbres;QCM;Quelle est la complexité de recherche dans un ABR non équilibré (pire cas) ?;1;O(n)|O(log n)|O(1)|O(n²);1
+Algorithmes et Structures de Données;Graphes;QCM;Quel algorithme trouve le plus court chemin dans un graphe pondéré ?;2;BFS|Dijkstra|DFS|Kruskal;1
+Algorithmes et Structures de Données;Graphes;QCM;Quelle structure de données est utilisée pour le parcours en largeur ?;2;Pile|File|Arbre|Liste;1
+Algorithmes et Structures de Données;Graphes;QCM;Quel algorithme détecte les cycles dans un graphe ?;3;Dijkstra|Kruskal|DFS|BFS;1
+Algorithmes et Structures de Données;Graphes;QCM;Qu'est-ce qu'un graphe orienté ?;2;Graphe sans cycles|Graphe avec arêtes directionnelles|Graphe connexe|Graphe pondéré;1
+Algorithmes et Structures de Données;Graphes;QCM;Qu'est-ce qu'un graphe connexe ?;3;Graphe orienté|Graphe pondéré|Graphe où tous les sommets sont reliés|Graphe sans cycles;1
+Algorithmes et Structures de Données;Graphes;QCM;Quel algorithme trouve l'arbre couvrant minimal ?;4;Dijkstra|BFS|DFS|Kruskal ou Prim;1
+Algorithmes et Structures de Données;Graphes;QCM;Quelle est la complexité de BFS ?;1;O(V + E)|O(V)|O(E)|O(V * E);1
+Algorithmes et Structures de Données;Graphes;QCM;Quelle est la complexité de DFS ?;1;O(V + E)|O(V)|O(E)|O(V * E);1
+Algorithmes et Structures de Données;Graphes;QCM;Comment représenter un graphe en mémoire ?;4;Seulement matrice|Seulement liste|Seulement arbre|Matrice d'adjacence ou liste d'adjacence;1
+Algorithmes et Structures de Données;Graphes;QCM;Qu'est-ce qu'un graphe biparti ?;2;Graphe à 2 sommets|Graphe divisible en 2 ensembles|Graphe orienté|Graphe pondéré;1
+Algorithmes et Structures de Données;Graphes;QCM;Qu'est-ce qu'un graphe acyclique ?;3;Graphe orienté|Graphe connexe|Graphe sans cycles|Graphe pondéré;1
+Algorithmes et Structures de Données;Graphes;QCM;Qu'est-ce qu'un DAG ?;4;Graphe quelconque|Graphe connexe|Graphe pondéré|Graphe orienté acyclique;1
+Algorithmes et Structures de Données;Graphes;QCM;Quel algorithme trouve tous les plus courts chemins ?;3;Dijkstra|BFS|Floyd-Warshall|Kruskal;1
+Algorithmes et Structures de Données;Graphes;QCM;Qu'est-ce qu'un graphe complet ?;2;Graphe connexe|Tous les sommets sont reliés entre eux|Graphe orienté|Graphe pondéré;1
+Algorithmes et Structures de Données;Graphes;QCM;Quelle est la complexité de Dijkstra avec tas binaire ?;3;O(V)|O(E)|O((V + E) log V)|O(V²);1
+Algorithmes et Structures de Données;Graphes;QCM;Qu'est-ce qu'un graphe planaire ?;4;Graphe simple|Graphe connexe|Graphe orienté|Graphe dessinable sans croisement d'arêtes;1
+Algorithmes et Structures de Données;Graphes;QCM;Quel algorithme utilise une approche gloutonne pour l'arbre couvrant minimal ?;1;Kruskal et Prim|Dijkstra|BFS|DFS;1
+Algorithmes et Structures de Données;Graphes;QCM;Qu'est-ce qu'un chemin eulérien ?;3;Chemin le plus court|Chemin le plus long|Chemin qui passe par toutes les arêtes une fois|Chemin qui passe par tous les sommets;1
+Algorithmes et Structures de Données;Graphes;QCM;Qu'est-ce qu'un chemin hamiltonien ?;4;Chemin le plus court|Chemin le plus long|Chemin qui passe par toutes les arêtes|Chemin qui passe par tous les sommets une fois;1
+Algorithmes et Structures de Données;Graphes;QCM;Quelle est la complexité de Floyd-Warshall ?;4;O(V)|O(E)|O(V + E)|O(V³);1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Quelle est la complexité moyenne d'une recherche dans une table de hachage ?;4;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Quelle technique résout les collisions par chaînage ?;1;Listes chaînées|Adressage ouvert|Double hachage|Rehachage;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Qu'est-ce qu'une fonction de hachage ?;2;Fonction de tri|Fonction qui transforme une clé en indice|Fonction de recherche|Fonction de suppression;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Qu'est-ce qu'une collision ?;3;Erreur|Bug|Deux clés ont le même hash|Table pleine;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Qu'est-ce que l'adressage ouvert ?;4;Adresse fixe|Adresse aléatoire|Adresse externe|Résolution de collision dans la table;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Qu'est-ce que le facteur de charge ?;2;Poids de la table|Ratio éléments/taille|Nombre de collisions|Taille de la table;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Quand faut-il redimensionner une table de hachage ?;3;Jamais|Toujours|Quand le facteur de charge est trop élevé|Quand elle est vide;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Quelle est la complexité dans le pire cas d'une table de hachage ?;1;O(n)|O(1)|O(log n)|O(n²);1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Qu'est-ce que le double hachage ?;4;Deux tables|Deux fonctions|Deux clés|Technique de résolution de collision;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Quel est l'avantage principal d'une table de hachage ?;2;Tri rapide|Recherche rapide|Moins de mémoire|Plus simple;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Qu'est-ce que le sondage linéaire ?;3;Technique de tri|Technique de recherche|Technique d'adressage ouvert|Technique de hachage;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Qu'est-ce que le sondage quadratique ?;4;Technique de tri|Technique de recherche|Technique de hachage|Technique d'adressage ouvert avec i²;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Quelle est la complexité d'insertion dans une table de hachage (moyenne) ?;4;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Quelle est la complexité de suppression dans une table de hachage (moyenne) ?;4;O(n)|O(log n)|O(n²)|O(1);1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Qu'est-ce qu'une bonne fonction de hachage ?;3;Fonction rapide|Fonction simple|Fonction qui distribue uniformément|Fonction complexe;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Quel est le désavantage du chaînage ?;2;Lent|Mémoire supplémentaire pour les pointeurs|Complexe|Inefficace;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Quel est le désavantage de l'adressage ouvert ?;3;Lent|Mémoire supplémentaire|Clustering (regroupement)|Complexe;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Comment gérer la suppression avec adressage ouvert ?;4;Supprimer directement|Impossible|Reconstruire la table|Marquer comme supprimé;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Quelle est la taille idéale d'une table de hachage ?;3;Petite|Grande|Nombre premier|Puissance de 2;1
+Algorithmes et Structures de Données;Tables de hachage;QCM;Qu'est-ce que le rehachage ?;2;Hacher deux fois|Redimensionner et réinsérer tous les éléments|Double hachage|Hachage inversé;1
+Algorithmes et Structures de Données;Tri;Exercice;Implémentez l'algorithme QuickSort et expliquez son principe de fonctionnement avec un exemple.;-1;-;15
+Algorithmes et Structures de Données;Arbres;Exercice;Implémentez un arbre binaire de recherche avec les opérations d'insertion, suppression et recherche.;-1;-;15
+Algorithmes et Structures de Données;Graphes;Exercice;Implémentez l'algorithme de Dijkstra pour trouver le plus court chemin dans un graphe pondéré.;-1;-;15
+Algorithmes et Structures de Données;Tables de hachage;Exercice;Créez une table de hachage avec gestion des collisions par chaînage et testez-la avec 10 éléments.;-1;-;15
+Algorithmes et Structures de Données;Complexité;Exercice;Analysez la complexité temporelle et spatiale de l'algorithme de tri fusion et justifiez votre réponse.;-1;-;15
+Algorithmes et Structures de Données;Programmation dynamique;Exercice;Résolvez le problème du sac à dos avec la programmation dynamique et expliquez votre approche.;-1;-;15
+Algorithmes et Structures de Données;Graphes avancés;Exercice;Implémentez l'algorithme de Floyd-Warshall pour trouver tous les plus courts chemins.;-1;-;15
+
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'une clé primaire ?;2;Clé étrangère|Identifiant unique d'une ligne|Index|Contrainte;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'une clé étrangère ?;3;Clé primaire|Index|Référence à une clé primaire d'une autre table|Contrainte unique;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'une relation en base de données ?;2;Lien entre tables|Table|Colonne|Ligne;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'un tuple ?;4;Table|Colonne|Attribut|Ligne;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'un attribut ?;3;Table|Ligne|Colonne|Relation;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce que la cardinalité ?;2;Nombre de colonnes|Nombre de lignes|Nombre de tables|Nombre de clés;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'une contrainte d'intégrité ?;4;Index|Clé|Relation|Règle de cohérence des données;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce que la normalisation ?;3;Optimisation|Indexation|Organisation des données pour réduire la redondance|Sauvegarde;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce que la première forme normale (1FN) ?;2;Pas de NULL|Valeurs atomiques|Pas de redondance|Clé primaire;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce que la deuxième forme normale (2FN) ?;4;Valeurs atomiques|Pas de NULL|Pas de redondance|1FN + dépendance fonctionnelle complète;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce que la troisième forme normale (3FN) ?;3;1FN|2FN|2FN + pas de dépendance transitive|Pas de redondance;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'une dépendance fonctionnelle ?;2;Relation entre tables|Relation entre attributs|Index|Contrainte;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'une super-clé ?;4;Clé primaire|Clé étrangère|Clé candidate|Ensemble d'attributs identifiant uniquement une ligne;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'une clé candidate ?;3;Clé primaire|Clé étrangère|Super-clé minimale|Index;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'une relation 1:N ?;2;Un à un|Un à plusieurs|Plusieurs à plusieurs|Aucune;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'une relation N:M ?;3;Un à un|Un à plusieurs|Plusieurs à plusieurs|Aucune;1
+Bases de Données;Modèle relationnel;QCM;Comment représenter une relation N:M ?;4;Une table|Deux tables|Clé étrangère|Table de jonction;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce que l'intégrité référentielle ?;3;Pas de NULL|Valeurs uniques|Clés étrangères valides|Pas de doublons;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'une contrainte UNIQUE ?;2;Clé primaire|Pas de doublons|Pas de NULL|Index;1
+Bases de Données;Modèle relationnel;QCM;Qu'est-ce qu'une contrainte NOT NULL ?;4;Pas de doublons|Valeur unique|Clé primaire|Valeur obligatoire;1
+Bases de Données;SQL;QCM;Quelle commande SQL sélectionne des données ?;1;SELECT|GET|FETCH|RETRIEVE;1
+Bases de Données;SQL;QCM;Quelle commande SQL insère des données ?;2;ADD|INSERT|PUT|CREATE;1
+Bases de Données;SQL;QCM;Quelle commande SQL met à jour des données ?;3;MODIFY|CHANGE|UPDATE|ALTER;1
+Bases de Données;SQL;QCM;Quelle commande SQL supprime des données ?;4;REMOVE|DROP|ERASE|DELETE;1
+Bases de Données;SQL;QCM;Quelle clause filtre les résultats ?;2;FILTER|WHERE|HAVING|IF;1
+Bases de Données;SQL;QCM;Quelle clause trie les résultats ?;3;SORT|ARRANGE|ORDER BY|GROUP BY;1
+Bases de Données;SQL;QCM;Quelle clause groupe les résultats ?;4;SORT BY|ARRANGE BY|ORDER BY|GROUP BY;1
+Bases de Données;SQL;QCM;Quelle clause filtre les groupes ?;1;HAVING|WHERE|FILTER|IF;1
+Bases de Données;SQL;QCM;Quelle fonction compte les lignes ?;2;SUM|COUNT|TOTAL|NUMBER;1
+Bases de Données;SQL;QCM;Quelle fonction calcule la moyenne ?;3;MEAN|AVERAGE|AVG|MEDIAN;1
+Bases de Données;SQL;QCM;Quelle fonction trouve le maximum ?;4;MAXIMUM|LARGEST|BIGGEST|MAX;1
+Bases de Données;SQL;QCM;Quelle fonction trouve le minimum ?;1;MIN|MINIMUM|SMALLEST|LOWEST;1
+Bases de Données;SQL;QCM;Quelle fonction calcule la somme ?;2;TOTAL|SUM|ADD|PLUS;1
+Bases de Données;SQL;QCM;Quelle clause joint deux tables ?;3;CONNECT|LINK|JOIN|MERGE;1
+Bases de Données;SQL;QCM;Qu'est-ce qu'un INNER JOIN ?;2;Toutes les lignes|Lignes correspondantes des deux tables|Lignes de gauche|Lignes de droite;1
+Bases de Données;SQL;QCM;Qu'est-ce qu'un LEFT JOIN ?;3;Lignes correspondantes|Lignes de droite|Toutes les lignes de gauche|Toutes les lignes;1
+Bases de Données;SQL;QCM;Qu'est-ce qu'un RIGHT JOIN ?;4;Lignes correspondantes|Lignes de gauche|Toutes les lignes|Toutes les lignes de droite;1
+Bases de Données;SQL;QCM;Qu'est-ce qu'un FULL JOIN ?;1;Toutes les lignes des deux tables|Lignes correspondantes|Lignes de gauche|Lignes de droite;1
+Bases de Données;SQL;QCM;Quelle commande crée une table ?;2;MAKE TABLE|CREATE TABLE|NEW TABLE|ADD TABLE;1
+Bases de Données;SQL;QCM;Quelle commande supprime une table ?;3;DELETE TABLE|REMOVE TABLE|DROP TABLE|ERASE TABLE;1
+Bases de Données;Transactions;QCM;Qu'est-ce qu'une transaction ?;2;Requête|Séquence d'opérations atomique|Table|Index;1
+Bases de Données;Transactions;QCM;Que signifie ACID ?;4;Atomicité, Cohérence, Isolation, Durabilité|Accès, Contrôle, Intégrité, Données|Ajout, Création, Insertion, Données|Aucune de ces réponses;1
+Bases de Données;Transactions;QCM;Qu'est-ce que l'atomicité ?;3;Divisible|Partielle|Tout ou rien|Séquentielle;1
+Bases de Données;Transactions;QCM;Qu'est-ce que la cohérence ?;2;Rapidité|Respect des contraintes d'intégrité|Isolation|Durabilité;1
+Bases de Données;Transactions;QCM;Qu'est-ce que l'isolation ?;4;Atomicité|Cohérence|Durabilité|Transactions indépendantes;1
+Bases de Données;Transactions;QCM;Qu'est-ce que la durabilité ?;3;Atomicité|Cohérence|Persistance après commit|Isolation;1
+Bases de Données;Transactions;QCM;Quelle commande valide une transaction ?;1;COMMIT|SAVE|VALIDATE|CONFIRM;1
+Bases de Données;Transactions;QCM;Quelle commande annule une transaction ?;2;CANCEL|ROLLBACK|UNDO|REVERT;1
+Bases de Données;Transactions;QCM;Qu'est-ce qu'un verrou (lock) ?;3;Index|Contrainte|Mécanisme de contrôle d'accès concurrent|Transaction;1
+Bases de Données;Transactions;QCM;Qu'est-ce qu'un deadlock ?;4;Erreur|Bug|Lenteur|Blocage mutuel de transactions;1
+Bases de Données;Transactions;QCM;Qu'est-ce que le niveau d'isolation READ UNCOMMITTED ?;2;Le plus strict|Le moins strict (lecture sale possible)|Moyen|Le plus sûr;1
+Bases de Données;Transactions;QCM;Qu'est-ce que le niveau d'isolation SERIALIZABLE ?;1;Le plus strict|Le moins strict|Moyen|Le plus rapide;1
+Bases de Données;Transactions;QCM;Qu'est-ce qu'une lecture sale (dirty read) ?;3;Lecture lente|Lecture d'erreur|Lecture de données non validées|Lecture de NULL;1
+Bases de Données;Transactions;QCM;Qu'est-ce qu'une lecture non répétable ?;4;Lecture sale|Lecture lente|Lecture d'erreur|Données changent entre deux lectures;1
+Bases de Données;Transactions;QCM;Qu'est-ce qu'une lecture fantôme (phantom read) ?;2;Lecture sale|Nouvelles lignes apparaissent entre deux lectures|Lecture lente|Lecture d'erreur;1
+Bases de Données;Transactions;QCM;Qu'est-ce que le contrôle de concurrence optimiste ?;3;Verrous stricts|Verrous partagés|Vérification à la fin|Pas de verrous;1
+Bases de Données;Transactions;QCM;Qu'est-ce que le contrôle de concurrence pessimiste ?;4;Pas de verrous|Vérification à la fin|Verrous partagés|Verrous dès le début;1
+Bases de Données;Transactions;QCM;Qu'est-ce qu'un point de sauvegarde (savepoint) ?;2;Commit|Point intermédiaire dans une transaction|Rollback|Index;1
+Bases de Données;Transactions;QCM;Qu'est-ce que le two-phase locking ?;3;Deux transactions|Deux tables|Protocole de verrouillage en deux phases|Deux commits;1
+Bases de Données;Transactions;QCM;Qu'est-ce que le timestamp ordering ?;4;Tri par date|Tri par heure|Index temporel|Contrôle de concurrence par horodatage;1
+Bases de Données;Indexation;QCM;Qu'est-ce qu'un index ?;2;Table|Structure pour accélérer les recherches|Clé|Contrainte;1
+Bases de Données;Indexation;QCM;Quel est l'avantage d'un index ?;3;Moins de mémoire|Plus simple|Recherche plus rapide|Insertion plus rapide;1
+Bases de Données;Indexation;QCM;Quel est le désavantage d'un index ?;4;Recherche lente|Complexe|Inutile|Ralentit les insertions/mises à jour;1
+Bases de Données;Indexation;QCM;Qu'est-ce qu'un index clustered ?;2;Index secondaire|Index qui détermine l'ordre physique des données|Index multiple|Index unique;1
+Bases de Données;Indexation;QCM;Qu'est-ce qu'un index non-clustered ?;3;Index primaire|Index qui détermine l'ordre physique|Index séparé des données|Index unique;1
+Bases de Données;Indexation;QCM;Combien d'index clustered peut-on avoir par table ?;1;1|2|Illimité|0;1
+Bases de Données;Indexation;QCM;Qu'est-ce qu'un index composite ?;4;Index simple|Index unique|Index clustered|Index sur plusieurs colonnes;1
+Bases de Données;Indexation;QCM;Qu'est-ce qu'un index unique ?;2;Index clustered|Index qui garantit l'unicité|Index composite|Index rapide;1
+Bases de Données;Indexation;QCM;Quelle structure de données est souvent utilisée pour les index ?;3;Liste|Pile|B-tree ou B+tree|Tableau;1
+Bases de Données;Indexation;QCM;Qu'est-ce qu'un index full-text ?;4;Index normal|Index unique|Index composite|Index pour recherche textuelle;1
+Bases de Données;Indexation;QCM;Quand créer un index ?;3;Toujours|Jamais|Sur colonnes fréquemment recherchées|Sur toutes les colonnes;1
+Bases de Données;Indexation;QCM;Qu'est-ce qu'un index bitmap ?;2;Index normal|Index utilisant des bits pour les valeurs|Index unique|Index composite;1
+Bases de Données;Indexation;QCM;Qu'est-ce que la sélectivité d'un index ?;4;Vitesse|Taille|Complexité|Proportion de valeurs distinctes;1
+Bases de Données;Indexation;QCM;Qu'est-ce qu'un index covering ?;3;Index clustered|Index unique|Index contenant toutes les colonnes nécessaires|Index composite;1
+Bases de Données;Indexation;QCM;Comment supprimer un index ?;2;DELETE INDEX|DROP INDEX|REMOVE INDEX|ERASE INDEX;1
+Bases de Données;Indexation;QCM;Qu'est-ce que la fragmentation d'index ?;4;Erreur|Bug|Optimisation|Désorganisation de l'index;1
+Bases de Données;Indexation;QCM;Comment optimiser un index fragmenté ?;3;Supprimer|Recréer|Reconstruire ou réorganiser|Ignorer;1
+Bases de Données;Indexation;QCM;Qu'est-ce qu'un index spatial ?;2;Index normal|Index pour données géographiques|Index unique|Index composite;1
+Bases de Données;Indexation;QCM;Qu'est-ce qu'un index hash ?;4;Index B-tree|Index bitmap|Index spatial|Index utilisant une fonction de hachage;1
+Bases de Données;Indexation;QCM;Quelle est la complexité de recherche avec un index B-tree ?;3;O(1)|O(n)|O(log n)|O(n²);1
+Bases de Données;NoSQL;QCM;Qu'est-ce qu'une base de données NoSQL ?;2;Base relationnelle|Base non relationnelle|Base SQL|Base normalisée;1
+Bases de Données;NoSQL;QCM;Quel type de base NoSQL stocke des paires clé-valeur ?;1;Redis, DynamoDB|MongoDB|Neo4j|Cassandra;1
+Bases de Données;NoSQL;QCM;Quel type de base NoSQL stocke des documents ?;2;Redis|MongoDB, CouchDB|Neo4j|Memcached;1
+Bases de Données;NoSQL;QCM;Quel type de base NoSQL stocke des graphes ?;3;Redis|MongoDB|Neo4j|Cassandra;1
+Bases de Données;NoSQL;QCM;Quel type de base NoSQL stocke des colonnes ?;4;Redis|MongoDB|Neo4j|Cassandra, HBase;1
+Bases de Données;NoSQL;QCM;Qu'est-ce que le théorème CAP ?;3;Cohérence, Atomicité, Performance|Cohérence, Accès, Partition|Cohérence, Disponibilité, Tolérance au partitionnement|Aucune de ces réponses;1
+Bases de Données;NoSQL;QCM;Que signifie BASE en NoSQL ?;4;Basique, Atomique, Simple, Efficace|Basique, Accessible, Sûr, Efficace|Basique, Atomique, Sécurisé, Efficace|Basically Available, Soft state, Eventually consistent;1
+Bases de Données;NoSQL;QCM;Qu'est-ce que la cohérence éventuelle ?;2;Cohérence immédiate|Cohérence après un délai|Pas de cohérence|Cohérence partielle;1
+Bases de Données;NoSQL;QCM;Quel est l'avantage principal de NoSQL ?;3;Plus simple|Plus sûr|Scalabilité horizontale|Plus rapide toujours;1
+Bases de Données;NoSQL;QCM;Qu'est-ce que le sharding ?;4;Réplication|Sauvegarde|Indexation|Partitionnement horizontal des données;1
+Bases de Données;NoSQL;QCM;Qu'est-ce que la réplication ?;2;Partitionnement|Copie des données sur plusieurs serveurs|Sauvegarde|Indexation;1
+Bases de Données;NoSQL;QCM;Qu'est-ce qu'un document en MongoDB ?;3;Table|Ligne|Objet JSON/BSON|Colonne;1
+Bases de Données;NoSQL;QCM;Qu'est-ce qu'une collection en MongoDB ?;2;Base de données|Ensemble de documents|Document|Index;1
+Bases de Données;NoSQL;QCM;Qu'est-ce qu'un nœud en Neo4j ?;4;Table|Ligne|Relation|Entité du graphe;1
+Bases de Données;NoSQL;QCM;Qu'est-ce qu'une relation en Neo4j ?;3;Table|Nœud|Lien entre nœuds|Propriété;1
+Bases de Données;NoSQL;QCM;Quel langage de requête utilise MongoDB ?;2;SQL|MQL (MongoDB Query Language)|Cypher|CQL;1
+Bases de Données;NoSQL;QCM;Quel langage de requête utilise Neo4j ?;3;SQL|MQL|Cypher|CQL;1
+Bases de Données;NoSQL;QCM;Quel langage de requête utilise Cassandra ?;4;SQL|MQL|Cypher|CQL (Cassandra Query Language);1
+Bases de Données;NoSQL;QCM;Qu'est-ce que MapReduce ?;2;Fonction de hachage|Modèle de programmation pour traitement distribué|Algorithme de tri|Fonction d'agrégation;1
+Bases de Données;NoSQL;QCM;Qu'est-ce que le denormalization en NoSQL ?;3;Normalisation|Optimisation|Duplication de données pour performance|Suppression de données;1
+Bases de Données;Modèle relationnel;Exercice;Concevez un schéma de base de données pour un système de gestion de bibliothèque avec normalisation jusqu'à la 3FN.;-1;-;15
+Bases de Données;SQL;Exercice;Écrivez une requête SQL complexe utilisant JOIN, GROUP BY et HAVING pour analyser des ventes par région.;-1;-;15
+Bases de Données;Transactions;Exercice;Expliquez le problème du deadlock avec un exemple concret et proposez des solutions pour l'éviter.;-1;-;15
+Bases de Données;Indexation;Exercice;Analysez les performances d'une requête avec et sans index, et expliquez quand créer un index.;-1;-;15
+Bases de Données;NoSQL;Exercice;Comparez MongoDB et PostgreSQL pour un cas d'usage spécifique et justifiez votre choix.;-1;-;15
+
+Réseaux Informatiques;Modèle OSI;QCM;Combien de couches a le modèle OSI ?;3;5|6|7|8;1
+Réseaux Informatiques;Modèle OSI;QCM;Quelle est la couche la plus basse du modèle OSI ?;1;Physique|Liaison|Réseau|Transport;1
+Réseaux Informatiques;Modèle OSI;QCM;Quelle couche gère le routage ?;3;Liaison|Transport|Réseau|Session;1
+Réseaux Informatiques;Modèle OSI;QCM;Quelle couche gère la fiabilité de bout en bout ?;4;Réseau|Session|Présentation|Transport;1
+Réseaux Informatiques;Modèle OSI;QCM;Quelle couche gère l'adressage MAC ?;2;Physique|Liaison|Réseau|Transport;1
+Réseaux Informatiques;Modèle OSI;QCM;Quelle couche gère le cryptage ?;3;Transport|Session|Présentation|Application;1
+Réseaux Informatiques;Modèle OSI;QCM;Quelle couche interagit avec l'utilisateur ?;4;Présentation|Session|Transport|Application;1
+Réseaux Informatiques;Modèle OSI;QCM;Quel protocole fonctionne à la couche réseau ?;3;Ethernet|TCP|IP|HTTP;1
+Réseaux Informatiques;Modèle OSI;QCM;Quel protocole fonctionne à la couche transport ?;2;IP|TCP|HTTP|Ethernet;1
+Réseaux Informatiques;Modèle OSI;QCM;Quel protocole fonctionne à la couche application ?;4;IP|TCP|Ethernet|HTTP;1
+Réseaux Informatiques;Modèle OSI;QCM;Qu'est-ce que l'encapsulation ?;2;Cryptage|Ajout d'en-têtes à chaque couche|Compression|Routage;1
+Réseaux Informatiques;Modèle OSI;QCM;Qu'est-ce que la désencapsulation ?;3;Cryptage|Compression|Retrait des en-têtes|Routage;1
+Réseaux Informatiques;Modèle OSI;QCM;Quelle couche gère les sessions ?;2;Transport|Session|Présentation|Application;1
+Réseaux Informatiques;Modèle OSI;QCM;Quelle couche gère la représentation des données ?;3;Session|Application|Présentation|Transport;1
+Réseaux Informatiques;Modèle OSI;QCM;Quel équipement fonctionne à la couche liaison ?;2;Routeur|Switch|Hub|Passerelle;1
+Réseaux Informatiques;Modèle OSI;QCM;Quel équipement fonctionne à la couche réseau ?;1;Routeur|Switch|Hub|Répéteur;1
+Réseaux Informatiques;Modèle OSI;QCM;Quel équipement fonctionne à la couche physique ?;3;Routeur|Switch|Hub|Passerelle;1
+Réseaux Informatiques;Modèle OSI;QCM;Qu'est-ce qu'une PDU (Protocol Data Unit) ?;4;Protocole|Couche|Équipement|Unité de données à chaque couche;1
+Réseaux Informatiques;Modèle OSI;QCM;Comment s'appelle la PDU à la couche transport ?;2;Paquet|Segment|Trame|Bit;1
+Réseaux Informatiques;Modèle OSI;QCM;Comment s'appelle la PDU à la couche réseau ?;1;Paquet|Segment|Trame|Bit;1
+Réseaux Informatiques;TCP/IP;QCM;Combien de couches a le modèle TCP/IP ?;4;3|5|6|4;1
+Réseaux Informatiques;TCP/IP;QCM;Quelle est la différence entre TCP et UDP ?;2;Aucune|TCP fiable, UDP non fiable|UDP fiable, TCP non fiable|Même protocole;1
+Réseaux Informatiques;TCP/IP;QCM;Quel protocole est orienté connexion ?;1;TCP|UDP|IP|ICMP;1
+Réseaux Informatiques;TCP/IP;QCM;Quel protocole est sans connexion ?;2;TCP|UDP|HTTP|FTP;1
+Réseaux Informatiques;TCP/IP;QCM;Quel est le numéro de port HTTP ?;3;21|22|80|443;1
+Réseaux Informatiques;TCP/IP;QCM;Quel est le numéro de port HTTPS ?;4;21|22|80|443;1
+Réseaux Informatiques;TCP/IP;QCM;Quel est le numéro de port FTP ?;1;21|22|80|443;1
+Réseaux Informatiques;TCP/IP;QCM;Quel est le numéro de port SSH ?;2;21|22|80|443;1
+Réseaux Informatiques;TCP/IP;QCM;Qu'est-ce qu'un three-way handshake ?;3;Protocole|Algorithme|Établissement de connexion TCP|Fermeture de connexion;1
+Réseaux Informatiques;TCP/IP;QCM;Quels sont les drapeaux du three-way handshake ?;4;ACK, ACK, ACK|SYN, SYN, SYN|FIN, FIN, FIN|SYN, SYN-ACK, ACK;1
+Réseaux Informatiques;TCP/IP;QCM;Qu'est-ce que le contrôle de flux en TCP ?;2;Routage|Gestion de la vitesse d'envoi|Cryptage|Compression;1
+Réseaux Informatiques;TCP/IP;QCM;Qu'est-ce que le contrôle de congestion en TCP ?;3;Routage|Cryptage|Éviter la surcharge du réseau|Compression;1
+Réseaux Informatiques;TCP/IP;QCM;Qu'est-ce qu'un numéro de séquence en TCP ?;4;Port|Adresse|Protocole|Identifiant de segment;1
+Réseaux Informatiques;TCP/IP;QCM;Qu'est-ce qu'un accusé de réception (ACK) ?;2;Erreur|Confirmation de réception|Demande|Refus;1
+Réseaux Informatiques;TCP/IP;QCM;Qu'est-ce que le MTU ?;3;Protocole|Adresse|Taille maximale d'une trame|Port;1
+Réseaux Informatiques;TCP/IP;QCM;Qu'est-ce que la fragmentation IP ?;4;Routage|Cryptage|Compression|Division de paquets trop grands;1
+Réseaux Informatiques;TCP/IP;QCM;Qu'est-ce que le TTL (Time To Live) ?;2;Temps de connexion|Nombre de sauts maximum|Temps d'attente|Durée de vie du paquet;1
+Réseaux Informatiques;TCP/IP;QCM;Qu'est-ce que le checksum ?;3;Adresse|Port|Somme de contrôle pour détecter les erreurs|Protocole;1
+Réseaux Informatiques;TCP/IP;QCM;Qu'est-ce que le protocole ICMP ?;4;Protocole de transport|Protocole d'application|Protocole de routage|Protocole de contrôle et diagnostic;1
+Réseaux Informatiques;TCP/IP;QCM;Quelle commande utilise ICMP ?;1;ping|telnet|ftp|ssh;1
+Réseaux Informatiques;Adressage IP;QCM;Combien de bits a une adresse IPv4 ?;4;8|16|24|32;1
+Réseaux Informatiques;Adressage IP;QCM;Combien de bits a une adresse IPv6 ?;3;32|64|128|256;1
+Réseaux Informatiques;Adressage IP;QCM;Quelle est la plage d'adresses de classe A ?;1;0.0.0.0 à 127.255.255.255|128.0.0.0 à 191.255.255.255|192.0.0.0 à 223.255.255.255|224.0.0.0 à 239.255.255.255;1
+Réseaux Informatiques;Adressage IP;QCM;Quelle est la plage d'adresses de classe B ?;2;0.0.0.0 à 127.255.255.255|128.0.0.0 à 191.255.255.255|192.0.0.0 à 223.255.255.255|224.0.0.0 à 239.255.255.255;1
+Réseaux Informatiques;Adressage IP;QCM;Quelle est la plage d'adresses de classe C ?;3;0.0.0.0 à 127.255.255.255|128.0.0.0 à 191.255.255.255|192.0.0.0 à 223.255.255.255|224.0.0.0 à 239.255.255.255;1
+Réseaux Informatiques;Adressage IP;QCM;Qu'est-ce qu'un masque de sous-réseau ?;4;Adresse IP|Protocole|Port|Identifie la partie réseau et hôte;1
+Réseaux Informatiques;Adressage IP;QCM;Qu'est-ce que le CIDR ?;3;Protocole|Adresse|Notation de masque (ex: /24)|Port;1
+Réseaux Informatiques;Adressage IP;QCM;Qu'est-ce qu'une adresse privée ?;2;Adresse publique|Adresse non routable sur Internet|Adresse de classe A|Adresse IPv6;1
+Réseaux Informatiques;Adressage IP;QCM;Quelle est une plage d'adresses privées ?;1;192.168.0.0/16|8.8.8.0/24|1.1.1.0/24|200.200.200.0/24;1
+Réseaux Informatiques;Adressage IP;QCM;Qu'est-ce que le NAT ?;4;Protocole|Port|Adresse|Traduction d'adresses réseau;1
+Réseaux Informatiques;Adressage IP;QCM;Qu'est-ce que l'adresse de loopback ?;3;192.168.1.1|10.0.0.1|127.0.0.1|0.0.0.0;1
+Réseaux Informatiques;Adressage IP;QCM;Qu'est-ce qu'une adresse de broadcast ?;2;Adresse unique|Adresse pour tous les hôtes du réseau|Adresse privée|Adresse de routeur;1
+Réseaux Informatiques;Adressage IP;QCM;Combien d'adresses utilisables dans un /24 ?;3;256|255|254|253;1
+Réseaux Informatiques;Adressage IP;QCM;Qu'est-ce que le subnetting ?;4;Routage|NAT|Protocole|Division d'un réseau en sous-réseaux;1
+Réseaux Informatiques;Adressage IP;QCM;Qu'est-ce que le supernetting ?;2;Division de réseau|Agrégation de réseaux|Routage|NAT;1
+Réseaux Informatiques;Adressage IP;QCM;Qu'est-ce que DHCP ?;3;Protocole de routage|Protocole de transport|Protocole d'attribution d'adresses IP|Protocole d'application;1
+Réseaux Informatiques;Adressage IP;QCM;Qu'est-ce que DNS ?;4;Protocole de routage|Protocole de transport|Protocole de sécurité|Système de noms de domaine;1
+Réseaux Informatiques;Adressage IP;QCM;Quel est le port DNS ?;2;22|53|80|443;1
+Réseaux Informatiques;Adressage IP;QCM;Qu'est-ce qu'une adresse MAC ?;3;Adresse IP|Adresse de routeur|Adresse physique de la carte réseau|Adresse de broadcast;1
+Réseaux Informatiques;Adressage IP;QCM;Combien de bits a une adresse MAC ?;4;32|64|128|48;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que le routage ?;2;Commutation|Acheminement des paquets entre réseaux|Cryptage|Compression;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce qu'une table de routage ?;3;Table de hachage|Table de base de données|Table d'acheminement des paquets|Table de ports;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que le routage statique ?;4;Automatique|Dynamique|Aléatoire|Configuration manuelle des routes;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que le routage dynamique ?;2;Configuration manuelle|Apprentissage automatique des routes|Routage aléatoire|Pas de routage;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que RIP ?;3;Protocole de transport|Protocole d'application|Protocole de routage à vecteur de distance|Protocole de liaison;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que OSPF ?;4;Protocole de transport|Protocole d'application|Protocole de routage à vecteur de distance|Protocole de routage à état de liens;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que BGP ?;2;Protocole interne|Protocole de routage externe (Internet)|Protocole de transport|Protocole d'application;1
+Réseaux Informatiques;Routage;QCM;Quelle métrique utilise RIP ?;1;Nombre de sauts|Bande passante|Délai|Coût;1
+Réseaux Informatiques;Routage;QCM;Quelle métrique utilise OSPF ?;2;Nombre de sauts|Coût (basé sur bande passante)|Délai|Aléatoire;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce qu'un système autonome (AS) ?;3;Routeur|Switch|Ensemble de réseaux sous une même administration|Protocole;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que le routage inter-domaine ?;4;Routage interne|Routage statique|Routage dynamique|Routage entre systèmes autonomes;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que le routage intra-domaine ?;2;Routage externe|Routage à l'intérieur d'un système autonome|Routage statique|Routage manuel;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que la convergence en routage ?;3;Routage rapide|Routage lent|Stabilisation des tables de routage|Routage aléatoire;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce qu'une boucle de routage ?;4;Routage optimal|Routage rapide|Routage sécurisé|Paquet tourne en boucle;1
+Réseaux Informatiques;Routage;QCM;Comment éviter les boucles de routage ?;2;Impossible|TTL, split horizon, etc.|Routage statique|Pas de routage;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que le split horizon ?;3;Protocole|Algorithme|Technique pour éviter les boucles|Métrique;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que le poison reverse ?;4;Protocole|Algorithme|Métrique|Technique pour éviter les boucles;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que le routage multicast ?;2;Routage un à un|Routage un à plusieurs|Routage plusieurs à plusieurs|Routage tous à tous;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que le routage anycast ?;3;Routage un à un|Routage un à plusieurs|Routage vers le plus proche|Routage tous à tous;1
+Réseaux Informatiques;Routage;QCM;Qu'est-ce que le routage broadcast ?;4;Routage un à un|Routage un à plusieurs|Routage vers le plus proche|Routage vers tous;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce qu'un firewall ?;2;Antivirus|Pare-feu filtrant le trafic|Routeur|Switch;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce qu'un VPN ?;3;Protocole|Firewall|Réseau privé virtuel|Antivirus;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce que le cryptage symétrique ?;4;Deux clés différentes|Pas de clé|Clé publique|Même clé pour crypter et décrypter;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce que le cryptage asymétrique ?;1;Deux clés (publique et privée)|Une clé|Pas de clé|Clé symétrique;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce que SSL/TLS ?;3;Protocole de routage|Protocole de transport|Protocole de sécurisation|Protocole d'application;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce qu'un certificat numérique ?;2;Clé|Document prouvant l'identité|Protocole|Algorithme;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce qu'une attaque DDoS ?;4;Virus|Malware|Phishing|Déni de service distribué;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce qu'une attaque Man-in-the-Middle ?;3;Virus|DDoS|Interception de communication|Phishing;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce que le phishing ?;2;Virus|Hameçonnage (vol d'informations)|DDoS|Malware;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce qu'un IDS ?;4;Firewall|Antivirus|VPN|Système de détection d'intrusion;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce qu'un IPS ?;3;Firewall|Antivirus|Système de prévention d'intrusion|VPN;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce que l'authentification à deux facteurs ?;2;Un mot de passe|Deux méthodes de vérification|Deux mots de passe|Biométrie uniquement;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce qu'un hash ?;4;Cryptage|Compression|Protocole|Fonction à sens unique;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce que SHA-256 ?;3;Protocole|Algorithme de cryptage|Fonction de hachage|Compression;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce que AES ?;2;Fonction de hachage|Algorithme de cryptage symétrique|Algorithme de cryptage asymétrique|Protocole;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce que RSA ?;4;Fonction de hachage|Algorithme de cryptage symétrique|Protocole|Algorithme de cryptage asymétrique;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce qu'une signature numérique ?;3;Cryptage|Hash|Preuve d'authenticité et d'intégrité|Compression;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce qu'un honeypot ?;2;Firewall|Système leurre pour attirer les attaquants|Antivirus|VPN;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce que le principe du moindre privilège ?;4;Tout autoriser|Tout interdire|Accès aléatoire|Donner le minimum de droits nécessaires;1
+Réseaux Informatiques;Sécurité;QCM;Qu'est-ce qu'une DMZ ?;3;Firewall|VPN|Zone démilitarisée (réseau intermédiaire)|Protocole;1
+Réseaux Informatiques;Modèle OSI;Exercice;Expliquez le rôle de chaque couche du modèle OSI avec des exemples de protocoles pour chaque couche.;-1;-;15
+Réseaux Informatiques;TCP/IP;Exercice;Analysez le processus de three-way handshake en TCP et expliquez comment il garantit la fiabilité.;-1;-;15
+Réseaux Informatiques;Adressage IP;Exercice;Calculez le nombre de sous-réseaux et d'hôtes pour un réseau 192.168.1.0/26 et donnez les plages d'adresses.;-1;-;15
+Réseaux Informatiques;Routage;Exercice;Comparez les protocoles de routage RIP et OSPF en termes de métriques, convergence et scalabilité.;-1;-;15
+Réseaux Informatiques;Sécurité;Exercice;Concevez une architecture réseau sécurisée pour une entreprise avec DMZ, firewall et VPN.;-1;-;15
+
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce qu'un processus ?;2;Programme|Programme en cours d'exécution|Fichier|Thread;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce qu'un thread ?;3;Processus|Programme|Unité d'exécution dans un processus|Fichier;1
+Systèmes d'Exploitation;Processus;QCM;Quelle est la différence entre processus et thread ?;4;Aucune|Thread plus lourd|Processus plus léger|Processus a son propre espace mémoire;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce que le PCB (Process Control Block) ?;2;Programme|Structure de données du processus|Thread|Fichier;1
+Systèmes d'Exploitation;Processus;QCM;Quels sont les états d'un processus ?;3;Actif, Inactif|Ouvert, Fermé|Nouveau, Prêt, En exécution, Bloqué, Terminé|Démarré, Arrêté;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce que le changement de contexte ?;4;Changement de programme|Changement de thread|Changement d'état|Sauvegarde et restauration de l'état du processus;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce qu'un processus zombie ?;2;Processus actif|Processus terminé mais non supprimé|Processus bloqué|Processus en attente;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce qu'un processus orphelin ?;3;Processus sans thread|Processus zombie|Processus dont le parent est terminé|Processus bloqué;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce que fork() ?;4;Fonction de tri|Fonction de recherche|Fonction de suppression|Fonction de création de processus;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce que exec() ?;2;Création de processus|Remplacement du processus par un nouveau programme|Terminaison de processus|Blocage de processus;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce que wait() ?;3;Création de processus|Exécution de processus|Attente de la fin d'un processus fils|Terminaison de processus;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce que exit() ?;4;Création de processus|Exécution de processus|Attente de processus|Terminaison de processus;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce que le PID ?;2;Processus|Identifiant de processus|Thread|Programme;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce que le PPID ?;3;Identifiant de processus|Identifiant de thread|Identifiant du processus parent|Identifiant de programme;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce que la création de processus par clonage ?;4;Copie de fichier|Copie de programme|Copie de thread|Duplication du processus parent;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce qu'un processus démon ?;2;Processus zombie|Processus en arrière-plan|Processus orphelin|Processus bloqué;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce que la priorité d'un processus ?;3;État|PID|Niveau d'importance pour l'ordonnancement|Thread;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce que nice en Unix ?;4;Commande de création|Commande de suppression|Commande d'exécution|Commande de modification de priorité;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce qu'un processus en premier plan ?;2;Processus démon|Processus interactif avec l'utilisateur|Processus zombie|Processus orphelin;1
+Systèmes d'Exploitation;Processus;QCM;Qu'est-ce qu'un processus en arrière-plan ?;3;Processus zombie|Processus orphelin|Processus non interactif|Processus bloqué;1
+Systèmes d'Exploitation;Ordonnancement;QCM;Qu'est-ce que l'ordonnancement ?;2;Création de processus|Sélection du processus à exécuter|Terminaison de processus|Blocage de processus;1
+Systèmes d'Exploitation;Ordonnancement;QCM;Qu'est-ce que FCFS (First Come First Served) ?;3;Ordonnancement par priorité|Ordonnancement circulaire|Ordonnancement par ordre d'arrivée|Ordonnancement préemptif;1
+Systèmes d'Exploitation;Ordonnancement;QCM;Qu'est-ce que SJF (Shortest Job First) ?;4;Ordonnancement par priorité|Ordonnancement circulaire|Ordonnancement par ordre d'arrivée|Ordonnancement du plus court d'abord;1
+Systèmes d'Exploitation;Ordonnancement;QCM;Qu'est-ce que Round Robin ?;2;Ordonnancement par priorité|Ordonnancement circulaire avec quantum|Ordonnancement par ordre d'arrivée|Ordonnancement du plus court;1
+Systèmes d'Exploitation;Ordonnancement;QCM;Qu'est-ce qu'un ordonnancement préemptif ?;3;Sans interruption|Par priorité|Avec interruption possible|Circulaire;1
+Systèmes d'Exploitation;Ordonnancement;QCM;Qu'est-ce qu'un ordonnancement non préemptif ?;4;Avec interruption|Circulaire|Par priorité|Sans interruption jusqu'à la fin;1
+Systèmes d'Exploitation;Ordonnancement;QCM;Qu'est-ce que le quantum en Round Robin ?;2;Priorité|Tranche de temps allouée|Ordre d'arrivée|Durée du processus;1
+Systèmes d'Exploitation;Ordonnancement;QCM;Qu'est-ce que le temps de rotation (turnaround time) ?;3;Temps d'exécution|Temps d'attente
+Systèmes d'Exploitation;Processus;Exercice;Expliquez le cycle de vie d'un processus et implémentez un programme utilisant fork() et exec().;-1;-;15
+Systèmes d'Exploitation;Ordonnancement;Exercice;Comparez les algorithmes d'ordonnancement FCFS, SJF et Round Robin avec des exemples concrets.;-1;-;15
+Systèmes d'Exploitation;Mémoire;Exercice;Expliquez la pagination et la segmentation, puis comparez leurs avantages et inconvénients.;-1;-;15
+Systèmes d'Exploitation;Synchronisation;Exercice;Résolvez le problème des producteurs-consommateurs en utilisant des sémaphores.;-1;-;15
+Systèmes d'Exploitation;Systèmes de fichiers;Exercice;Décrivez la structure d'un système de fichiers Unix et expliquez les i-nodes.;-1;-;15
+
+Architecture des Ordinateurs;Représentation des données;QCM;Combien de bits dans un octet ?;3;4|6|8|16;1
+Architecture des Ordinateurs;Représentation des données;QCM;Qu'est-ce que le complément à deux ?;2;Addition|Représentation des nombres signés|Multiplication|Division;1
+Architecture des Ordinateurs;Représentation des données;QCM;Quelle est la valeur décimale de 1010 en binaire ?;4;8|9|11|10;1
+Architecture des Ordinateurs;Représentation des données;QCM;Combien de valeurs peut représenter un byte ?;3;128|255|256|512;1
+Architecture des Ordinateurs;Représentation des données;QCM;Qu'est-ce que le bit de poids fort ?;1;Bit le plus à gauche|Bit le plus à droite|Bit du milieu|Bit de parité;1
+Architecture des Ordinateurs;Représentation des données;QCM;Comment représenter -5 en complément à deux sur 8 bits ?;2;10000101|11111011|00000101|10101010;1
+Architecture des Ordinateurs;Représentation des données;QCM;Qu'est-ce que l'ASCII ?;3;Algorithme|Processeur|Code de caractères|Mémoire;1
+Architecture des Ordinateurs;Représentation des données;QCM;Combien de bits pour représenter 16 valeurs différentes ?;4;2|3|8|4;1
+Architecture des Ordinateurs;Représentation des données;QCM;Qu'est-ce que l'Unicode ?;2;Processeur|Standard de codage de caractères|Mémoire|Algorithme;1
+Architecture des Ordinateurs;Représentation des données;QCM;Quelle est la valeur hexadécimale de 255 en décimal ?;1;FF|F0|0F|FE;1
+Architecture des Ordinateurs;Représentation des données;QCM;Combien de bits dans un nibble ?;4;2|8|16|4;1
+Architecture des Ordinateurs;Représentation des données;QCM;Qu'est-ce que le BCD (Binary Coded Decimal) ?;3;Binaire pur|Hexadécimal|Codage décimal en binaire|Octal;1
+Architecture des Ordinateurs;Représentation des données;QCM;Quelle est la valeur binaire de A en hexadécimal ?;2;1001|1010|1011|1100;1
+Architecture des Ordinateurs;Représentation des données;QCM;Qu'est-ce que le bit de parité ?;4;Bit de signe|Bit de poids fort|Bit de poids faible|Bit de détection d'erreur;1
+Architecture des Ordinateurs;Représentation des données;QCM;Comment représenter 0.5 en binaire ?;1;0.1|0.01|0.001|0.0001;1
+Architecture des Ordinateurs;Représentation des données;QCM;Qu'est-ce que la virgule flottante ?;3;Entier|Caractère|Représentation des nombres réels|Booléen;1
+Architecture des Ordinateurs;Représentation des données;QCM;Quelle norme pour les nombres flottants ?;2;ASCII|IEEE 754|Unicode|UTF-8;1
+Architecture des Ordinateurs;Représentation des données;QCM;Combien de bits dans un mot (word) sur architecture 32-bit ?;4;8|16|64|32;1
+Architecture des Ordinateurs;Représentation des données;QCM;Qu'est-ce que le big-endian ?;2;Petit processeur|Ordre des octets (poids fort en premier)|Petit nombre|Grande mémoire;1
+Architecture des Ordinateurs;Représentation des données;QCM;Qu'est-ce que le little-endian ?;3;Grand processeur|Grand nombre|Ordre des octets (poids faible en premier)|Grande mémoire;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que le CPU ?;1;Unité centrale de traitement|Mémoire|Disque dur|Carte graphique;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que l'ALU ?;2;Mémoire|Unité arithmétique et logique|Registre|Bus;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce qu'un registre ?;3;Mémoire RAM|Disque dur|Mémoire très rapide dans le CPU|Cache;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que le compteur de programme (PC) ?;4;Compteur de cycles|Compteur d'instructions|Compteur de mémoire|Registre contenant l'adresse de la prochaine instruction;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que le cycle d'instruction ?;2;Cycle de mémoire|Fetch-Decode-Execute|Cycle de cache|Cycle de bus;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que le pipeline ?;3;Mémoire|Bus|Exécution parallèle d'instructions|Cache;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce qu'un hazard dans un pipeline ?;4;Avantage|Optimisation|Accélération|Conflit nécessitant un arrêt;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que le superscalaire ?;2;Un seul pipeline|Plusieurs pipelines|Cache|Mémoire;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que l'hyperthreading ?;3;Multi-cœur|Multi-processeur|Plusieurs threads par cœur|Multi-cache;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que le CISC ?;4;Processeur simple|Processeur rapide|Processeur moderne|Jeu d'instructions complexe;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que le RISC ?;1;Jeu d'instructions réduit|Jeu d'instructions complexe|Processeur lent|Processeur ancien;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que la fréquence d'horloge ?;2;Taille du processeur|Vitesse du processeur (Hz)|Nombre de cœurs|Taille du cache;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce qu'un cœur de processeur ?;3;Cache|Mémoire|Unité de traitement indépendante|Bus;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que le TDP ?;4;Vitesse|Nombre de cœurs|Taille|Puissance thermique;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que l'overclocking ?;2;Refroidissement|Augmentation de la fréquence|Diminution de la fréquence|Ajout de cœurs;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que le cache L1 ?;3;Cache le plus lent|Cache le plus grand|Cache le plus rapide et proche du cœur|Cache partagé;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que le cache L3 ?;4;Cache le plus rapide|Cache privé|Cache L1|Cache partagé entre cœurs;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que l'architecture von Neumann ?;2;Mémoire séparée|Mémoire unifiée pour données et instructions|Pas de mémoire|Mémoire cache;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que l'architecture Harvard ?;3;Mémoire unifiée|Pas de mémoire|Mémoires séparées pour données et instructions|Cache uniquement;1
+Architecture des Ordinateurs;Processeur;QCM;Qu'est-ce que le branch prediction ?;4;Exécution|Mémoire|Cache|Prédiction des branchements;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que la RAM ?;2;Mémoire permanente|Mémoire vive volatile|Disque dur|Cache;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que la ROM ?;3;Mémoire vive|Mémoire cache|Mémoire morte|Registre;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que la mémoire virtuelle ?;4;RAM|ROM|Cache|Extension de la RAM sur disque;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce qu'un cache miss ?;2;Cache plein|Donnée non trouvée dans le cache|Cache vide|Cache rapide;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce qu'un cache hit ?;1;Donnée trouvée dans le cache|Donnée non trouvée|Cache plein|Cache vide;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que la hiérarchie mémoire ?;3;Mémoire unique|Mémoire plate|Organisation en niveaux (registres, cache, RAM, disque)|Mémoire virtuelle;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que la DDR ?;4;Disque|Cache|Registre|Double Data Rate RAM;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que la latence mémoire ?;2;Taille|Délai d'accès|Vitesse|Capacité;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que le DRAM ?;3;Mémoire statique|Mémoire cache|Mémoire dynamique|Mémoire morte;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que le SRAM ?;4;Mémoire dynamique|Mémoire morte|Mémoire virtuelle|Mémoire statique;1
+Architecture des Ordinateurs;Mémoire;QCM;Quelle mémoire est plus rapide ?;2;DRAM|SRAM|ROM|Disque;1
+Architecture des Ordinateurs;Mémoire;QCM;Quelle mémoire est plus dense ?;1;DRAM|SRAM|Cache|Registre;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que le refresh en DRAM ?;3;Lecture|Écriture|Rafraîchissement périodique|Suppression;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que l'ECC ?;4;Type de RAM|Vitesse|Taille|Correction d'erreurs;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que le dual-channel ?;2;Un canal|Deux canaux mémoire pour plus de bande passante|Trois canaux|Quatre canaux;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que le swap ?;3;Cache|RAM|Espace disque pour mémoire virtuelle|ROM;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que la bande passante mémoire ?;4;Latence|Taille|Vitesse d'horloge|Débit de transfert;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que le CAS latency ?;2;Taille|Délai d'accès aux colonnes|Vitesse|Capacité;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que la mémoire flash ?;3;Volatile|Très rapide|Non-volatile|Très lente;1
+Architecture des Ordinateurs;Mémoire;QCM;Qu'est-ce que le SSD ?;4;Disque magnétique|RAM|Cache|Disque à mémoire flash;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce qu'un bus ?;2;Processeur|Chemin de communication|Mémoire|Disque;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le bus de données ?;3;Bus d'adresses|Bus de contrôle|Bus transportant les données|Bus d'alimentation;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le bus d'adresses ?;4;Bus de données|Bus de contrôle|Bus d'alimentation|Bus transportant les adresses mémoire;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le bus de contrôle ?;2;Bus de données|Bus transportant les signaux de contrôle|Bus d'adresses|Bus d'alimentation;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le PCI ?;3;Processeur|Mémoire|Bus d'extension|Disque;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le PCIe ?;4;PCI lent|PCI ancien|PCI simple|PCI Express (plus rapide);1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que l'USB ?;2;Bus interne|Universal Serial Bus|Bus mémoire|Bus processeur;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le DMA ?;3;Mémoire|Bus|Accès direct à la mémoire sans CPU|Processeur;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce qu'une interruption ?;4;Erreur|Bug|Arrêt|Signal pour attirer l'attention du CPU;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce qu'un contrôleur d'interruptions ?;2;Processeur|Gère les interruptions|Mémoire|Bus;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le polling ?;3;Interruption|DMA|Vérification périodique de l'état|Bus;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le SATA ?;4;Bus mémoire|Bus processeur|Bus USB|Bus pour disques durs;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le NVMe ?;2;Bus ancien|Protocole pour SSD rapides|Bus lent|Bus mémoire;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le Thunderbolt ?;3;Bus interne|Bus lent|Interface haute vitesse|Bus ancien;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que l'HDMI ?;4;Bus données|Bus mémoire|Bus processeur|Interface audio/vidéo;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le DisplayPort ?;2;Bus données|Interface vidéo|Bus mémoire|Bus processeur;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le GPIO ?;3;Bus interne|Mémoire|Entrées/sorties à usage général|Processeur;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que l'I2C ?;4;Bus rapide|Bus mémoire|Bus processeur|Bus série pour périphériques;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que le SPI ?;2;Bus parallèle|Bus série synchrone|Bus asynchrone|Bus rapide;1
+Architecture des Ordinateurs;Bus et E/S;QCM;Qu'est-ce que l'UART ?;3;Bus parallèle|Bus synchrone|Bus série asynchrone|Bus rapide;1
+Architecture des Ordinateurs;Représentation des données;Exercice;Convertissez le nombre décimal 156 en binaire, octal et hexadécimal, puis expliquez votre méthode.;-1;-;15
+Architecture des Ordinateurs;Processeur;Exercice;Expliquez le fonctionnement du pipeline d'instructions et les différents types de hazards avec des exemples.;-1;-;15
+Architecture des Ordinateurs;Mémoire;Exercice;Comparez les différents niveaux de la hiérarchie mémoire en termes de vitesse, taille et coût.;-1;-;15
+Architecture des Ordinateurs;Bus et E/S;Exercice;Expliquez la différence entre polling et interruptions pour la gestion des E/S, avec avantages et inconvénients.;-1;-;15
+Architecture des Ordinateurs;Architecture générale;Exercice;Décrivez l'architecture von Neumann et comparez-la avec l'architecture Harvard.;-1;-;15
+
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que le cycle de vie logiciel ?;2;Code source|Étapes de développement d'un logiciel|Durée d'exécution|Version du logiciel;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que le modèle en cascade ?;3;Modèle itératif|Modèle agile|Modèle séquentiel|Modèle incrémental;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que le modèle en V ?;4;Modèle agile|Modèle itératif|Modèle incrémental|Modèle en cascade avec tests;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que le modèle itératif ?;2;Une seule itération|Développement par itérations successives|Modèle linéaire|Modèle en cascade;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que le modèle incrémental ?;3;Tout d'un coup|Modèle linéaire|Développement par ajouts successifs|Modèle en cascade;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que le prototypage ?;4;Test final|Documentation|Maintenance|Création d'une version préliminaire;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que la spirale de Boehm ?;2;Modèle linéaire|Modèle itératif avec gestion des risques|Modèle en cascade|Modèle agile;1
+Génie Logiciel;Cycle de vie;QCM;Quelle phase vient après l'analyse des besoins ?;3;Codage|Test|Conception|Maintenance;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que la maintenance corrective ?;4;Ajout de fonctionnalités|Optimisation|Prévention|Correction de bugs;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que la maintenance évolutive ?;1;Ajout de fonctionnalités|Correction de bugs|Optimisation|Prévention;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que la maintenance adaptative ?;2;Correction de bugs|Adaptation à un nouvel environnement|Ajout de fonctionnalités|Optimisation;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que la maintenance préventive ?;3;Correction de bugs|Ajout de fonctionnalités|Amélioration de la maintenabilité|Adaptation;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que le refactoring ?;4;Ajout de fonctionnalités|Correction de bugs|Test|Amélioration du code sans changer le comportement;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que la dette technique ?;2;Coût du projet|Code de mauvaise qualité à corriger plus tard|Budget|Temps de développement;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que le legacy code ?;3;Code moderne|Code documenté|Code ancien difficile à maintenir|Code testé;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que la rétro-ingénierie ?;4;Développement|Test|Documentation|Analyse d'un système existant;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que la réingénierie ?;2;Développement initial|Refonte d'un système existant|Test|Documentation;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que le versioning ?;3;Test|Documentation|Gestion des versions du code|Compilation;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce qu'une release ?;4;Bug|Test|Documentation|Version publiée du logiciel;1
+Génie Logiciel;Cycle de vie;QCM;Qu'est-ce que le déploiement continu ?;2;Déploiement manuel|Déploiement automatique fréquent|Déploiement annuel|Pas de déploiement;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que l'agilité ?;3;Méthode en cascade|Méthode lente|Approche itérative et adaptative|Méthode rigide;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que Scrum ?;4;Langage|Outil|Méthode en cascade|Framework agile;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce qu'un sprint en Scrum ?;2;Réunion|Itération de développement|Rôle|Artefact;1
+Génie Logiciel;Méthodes agiles;QCM;Quelle est la durée typique d'un sprint ?;3;1 jour|1 mois|2-4 semaines|6 mois;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que le Product Owner ?;4;Développeur|Testeur|Chef de projet|Responsable du produit;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que le Scrum Master ?;2;Développeur|Facilitateur de l'équipe Scrum|Testeur|Product Owner;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que le Product Backlog ?;3;Code source|Documentation|Liste priorisée des fonctionnalités|Test;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que le Sprint Backlog ?;4;Product Backlog|Documentation|Code|Tâches du sprint en cours;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que le Daily Scrum ?;2;Réunion mensuelle|Réunion quotidienne courte|Réunion annuelle|Réunion de 2 heures;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que la Sprint Review ?;3;Réunion quotidienne|Réunion de planification|Démonstration du travail accompli|Rétrospective;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que la Sprint Retrospective ?;4;Démonstration|Planification|Daily Scrum|Réflexion sur l'amélioration du processus;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce qu'une User Story ?;2;Bug|Description d'une fonctionnalité du point de vue utilisateur|Test|Documentation;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que Kanban ?;3;Langage|Outil de test|Méthode de gestion visuelle du flux|Base de données;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que le WIP (Work In Progress) ?;4;Travail terminé|Travail planifié|Travail annulé|Travail en cours;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que XP (Extreme Programming) ?;2;Langage|Méthode agile avec pratiques d'ingénierie|Outil|Base de données;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que le pair programming ?;3;Programmation seul|Programmation en équipe|Deux développeurs sur un poste|Programmation à distance;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que le TDD (Test-Driven Development) ?;4;Test après code|Pas de test|Test manuel|Écrire les tests avant le code;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que le BDD (Behavior-Driven Development) ?;2;Test unitaire|Tests basés sur le comportement|Pas de test|Test manuel;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que la vélocité en Scrum ?;3;Vitesse d'exécution|Nombre de bugs|Quantité de travail accompli par sprint|Nombre de réunions;1
+Génie Logiciel;Méthodes agiles;QCM;Qu'est-ce que le burndown chart ?;4;Diagramme de Gantt|Diagramme de classes|Diagramme de flux|Graphique du travail restant;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que la qualité logicielle ?;2;Vitesse|Conformité aux exigences et absence de défauts|Taille du code|Nombre de fonctionnalités;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce qu'un test unitaire ?;3;Test du système|Test d'intégration|Test d'une unité de code isolée|Test de performance;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce qu'un test d'intégration ?;4;Test unitaire|Test de performance|Test de sécurité|Test de l'interaction entre composants;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce qu'un test système ?;2;Test unitaire|Test du système complet|Test d'intégration|Test de performance;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce qu'un test d'acceptation ?;3;Test unitaire|Test d'intégration|Validation par le client|Test de performance;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que la couverture de code ?;4;Nombre de lignes|Nombre de fonctions|Nombre de fichiers|Pourcentage de code testé;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce qu'un bug ?;2;Fonctionnalité|Défaut dans le logiciel|Test|Documentation;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que le débogage ?;3;Test|Documentation|Recherche et correction de bugs|Développement;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que la revue de code ?;4;Test automatique|Compilation|Documentation|Examen du code par les pairs;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que l'analyse statique ?;2;Test d'exécution|Analyse du code sans l'exécuter|Test de performance|Test d'intégration;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que l'analyse dynamique ?;3;Analyse statique|Revue de code|Analyse pendant l'exécution|Documentation;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que la complexité cyclomatique ?;4;Taille du code|Nombre de lignes|Nombre de fonctions|Mesure de la complexité du code;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que le code smell ?;2;Code parfait|Indice de problème de conception|Code rapide|Code documenté;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que la maintenabilité ?;3;Vitesse|Performance|Facilité de maintenance du code|Sécurité;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que la fiabilité ?;4;Vitesse|Taille|Maintenabilité|Capacité à fonctionner sans défaillance;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que la portabilité ?;2;Vitesse|Facilité d'adaptation à différents environnements|Performance|Sécurité;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que l'utilisabilité ?;3;Performance|Sécurité|Facilité d'utilisation|Vitesse;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que la performance ?;4;Sécurité|Maintenabilité|Utilisabilité|Vitesse et efficacité;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que la sécurité logicielle ?;2;Vitesse|Protection contre les menaces|Performance|Maintenabilité;1
+Génie Logiciel;Qualité;QCM;Qu'est-ce que le test de régression ?;3;Test initial|Test de performance|Vérification que les modifications n'ont pas cassé l'existant|Test de sécurité;1
+Génie Logiciel;Conception;QCM;Qu'est-ce quUML ?;2;Langage de programmation|Langage de modélisation|Base de données|Système d'exploitation;1
+Génie Logiciel;Conception;QCM;Qu'est-ce qu'un diagramme de classes ?;3;Diagramme de séquence|Diagramme d'activité|Représentation des classes et relations|Diagramme de cas d'utilisation;1
+Génie Logiciel;Conception;QCM;Qu'est-ce qu'un diagramme de séquence ?;4;Diagramme de classes|Diagramme d'activité|Diagramme de cas d'utilisation|Représentation des interactions temporelles;1
+Génie Logiciel;Conception;QCM;Qu'est-ce qu'un diagramme de cas d'utilisation ?;2;Diagramme de classes|Représentation des fonctionnalités du point de vue utilisateur|Diagramme de séquence|Diagramme d'activité;1
+Génie Logiciel;Conception;QCM;Qu'est-ce qu'un design pattern ?;3;Bug|Test|Solution réutilisable à un problème courant|Documentation;1
+Génie Logiciel;Conception;QCM;Qu'est-ce que le pattern Singleton ?;4;Plusieurs instances|Pattern de création|Pattern de structure|Une seule instance d'une classe;1
+Génie Logiciel;Conception;QCM;Qu'est-ce que le pattern Factory ?;2;Pattern de comportement|Pattern de création d'objets|Pattern de structure|Pattern de test;1
+Génie Logiciel;Conception;QCM;Qu'est-ce que le pattern Observer ?;3;Pattern de création|Pattern de structure|Pattern de comportement (notification)|Pattern de test;1
+Génie Logiciel;Conception;QCM;Qu'est-ce que le pattern MVC ?;4;Pattern de création|Pattern de comportement|Pattern de test|Modèle-Vue-Contrôleur;1
+Génie Logiciel;Conception;QCM;Qu'est-ce que le principe SOLID ?;2;Un principe|Cinq principes de conception orientée objet|Test|Documentation;1
+Génie Logiciel;Conception;QCM;Que signifie le S dans SOLID ?;3;Sécurité|Simplicité|Single Responsibility Principle|Scalabilité;1
+Génie Logiciel;Conception;QCM;Que signifie le O dans SOLID ?;4;Objet|Optimisation|Ordre|Open/Closed Principle;1
+Génie Logiciel;Conception;QCM;Que signifie le L dans SOLID ?;2;Langage|Liskov Substitution Principle|Liste|Logique;1
+Génie Logiciel;Conception;QCM;Que signifie le I dans SOLID ?;3;Itération|Implémentation|Interface Segregation Principle|Intégration;1
+Génie Logiciel;Conception;QCM;Que signifie le D dans SOLID ?;4;Documentation|Développement|Déploiement|Dependency Inversion Principle;1
+Génie Logiciel;Conception;QCM;Qu'est-ce que le couplage ?;2;Indépendance|Degré de dépendance entre modules|Performance|Sécurité;1
+Génie Logiciel;Conception;QCM;Qu'est-ce que la cohésion ?;3;Couplage|Performance|Degré de relation entre éléments d'un module|Sécurité;1
+Génie Logiciel;Conception;QCM;Qu'est-ce que l'encapsulation ?;4;Héritage|Polymorphisme|Abstraction|Masquage des détails d'implémentation;1
+Génie Logiciel;Conception;QCM;Qu'est-ce que l'héritage ?;2;Encapsulation|Mécanisme de réutilisation par extension|Polymorphisme|Abstraction;1
+Génie Logiciel;Conception;QCM;Qu'est-ce que le polymorphisme ?;3;Héritage|Encapsulation|Capacité à prendre plusieurs formes|Abstraction;1
+Génie Logiciel;Cycle de vie;Exercice;Comparez les modèles en cascade et agile, et expliquez dans quels contextes utiliser chacun.;-1;-;15
+Génie Logiciel;Méthodes agiles;Exercice;Décrivez le déroulement complet d'un sprint Scrum avec tous les événements et artefacts.;-1;-;15
+Génie Logiciel;Qualité;Exercice;Expliquez la pyramide des tests et l'importance de chaque niveau de test.;-1;-;15
+Génie Logiciel;Conception;Exercice;Implémentez le pattern Observer en Java ou C++ et expliquez son utilité.;-1;-;15
+Génie Logiciel;SOLID;Exercice;Expliquez les 5 principes SOLID avec des exemples concrets de code.;-1;-;15
+
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que l'intelligence artificielle ?;2;Robot|Simulation de l'intelligence humaine par des machines|Ordinateur|Programme;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que l'IA faible ?;3;IA générale|IA forte|IA spécialisée dans une tâche|IA consciente;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que l'IA forte ?;4;IA spécialisée|IA faible|IA actuelle|IA avec conscience et compréhension générale;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que le test de Turing ?;2;Test de performance|Test pour évaluer l'intelligence d'une machine|Test de sécurité|Test de vitesse;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce qu'un agent intelligent ?;3;Programme|Robot|Entité qui perçoit et agit dans un environnement|Ordinateur;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que l'apprentissage automatique ?;4;Programmation|Test|Documentation|Capacité d'apprendre sans être explicitement programmé;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que l'apprentissage supervisé ?;2;Sans données|Apprentissage avec données étiquetées|Apprentissage sans étiquettes|Apprentissage par renforcement;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que l'apprentissage non supervisé ?;3;Avec étiquettes|Par renforcement|Apprentissage sans données étiquetées|Supervisé;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que l'apprentissage par renforcement ?;4;Supervisé|Non supervisé|Semi-supervisé|Apprentissage par récompenses et punitions;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce qu'un réseau de neurones ?;2;Graphe|Modèle inspiré du cerveau humain|Arbre|Liste;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que le deep learning ?;3;Apprentissage simple|Apprentissage rapide|Apprentissage avec réseaux de neurones profonds|Apprentissage lent;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce qu'un perceptron ?;4;Algorithme|Graphe|Arbre|Neurone artificiel simple;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que la fonction d'activation ?;2;Fonction de coût|Fonction non-linéaire dans un neurone|Fonction de perte|Fonction d'optimisation;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que la rétropropagation ?;3;Propagation avant|Fonction d'activation|Algorithme d'apprentissage des réseaux de neurones|Fonction de coût;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce qu'un dataset ?;4;Algorithme|Modèle|Réseau|Ensemble de données;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que le surapprentissage (overfitting) ?;2;Sous-apprentissage|Modèle trop adapté aux données d'entraînement|Bon apprentissage|Pas d'apprentissage;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que le sous-apprentissage (underfitting) ?;3;Surapprentissage|Bon apprentissage|Modèle trop simple|Pas d'apprentissage;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que la validation croisée ?;4;Test simple|Entraînement|Pas de validation|Technique d'évaluation de modèle;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que le biais (bias) ?;2;Variance|Erreur systématique du modèle|Surapprentissage|Sous-apprentissage;1
+Intelligence Artificielle;Introduction;QCM;Qu'est-ce que la variance ?;3;Biais|Erreur|Sensibilité du modèle aux données d'entraînement|Surapprentissage;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que la régression linéaire ?;2;Classification|Prédiction d'une valeur continue|Clustering|Réduction de dimensionnalité;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que la régression logistique ?;3;Régression|Clustering|Classification binaire|Réduction de dimensionnalité;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que les k-NN (k plus proches voisins) ?;4;Régression|Clustering|Réduction de dimensionnalité|Algorithme de classification basé sur la proximité;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que les SVM (Support Vector Machines) ?;2;Clustering|Algorithme de classification par hyperplan|Régression|Réduction de dimensionnalité;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce qu'un arbre de décision ?;3;Graphe|Réseau|Modèle de classification hiérarchique|Liste;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que le Random Forest ?;4;Un arbre|Réseau de neurones|SVM|Ensemble d'arbres de décision;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que le k-means ?;2;Classification|Algorithme de clustering|Régression|Réduction de dimensionnalité;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que le clustering hiérarchique ?;3;k-means|Classification|Clustering par regroupements successifs|Régression;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que la PCA (Analyse en Composantes Principales) ?;4;Classification|Régression|Clustering|Réduction de dimensionnalité;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que le gradient descent ?;2;Fonction d'activation|Algorithme d'optimisation|Fonction de coût|Algorithme de classification;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que la fonction de coût ?;3;Fonction d'activation|Fonction d'optimisation|Mesure de l'erreur du modèle|Fonction de classification;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que le taux d'apprentissage (learning rate) ?;4;Fonction de coût|Fonction d'activation|Nombre d'époques|Pas de l'optimisation;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce qu'une époque (epoch) ?;2;Itération|Passage complet sur les données d'entraînement|Batch|Fonction;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce qu'un batch ?;3;Époque|Itération|Sous-ensemble de données pour l'entraînement|Dataset complet;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que le boosting ?;4;Clustering|Régression|Classification|Technique d'ensemble combinant des modèles faibles;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que le bagging ?;2;Boosting|Technique d'ensemble par échantillonnage|Clustering|Régression;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que la régularisation ?;3;Optimisation|Activation|Technique pour éviter le surapprentissage|Classification;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que L1 (Lasso) ?;4;Fonction d'activation|Fonction de coût|Optimisation|Régularisation par valeur absolue;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que L2 (Ridge) ?;2;Fonction d'activation|Régularisation par carré|Fonction de coût|Optimisation;1
+Intelligence Artificielle;Algorithmes;QCM;Qu'est-ce que le dropout ?;3;Fonction d'activation|Optimisation|Technique de régularisation par désactivation de neurones|Fonction de coût;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce qu'un CNN (Convolutional Neural Network) ?;2;Réseau récurrent|Réseau pour traitement d'images|Réseau simple|Réseau pour texte;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce qu'un RNN (Recurrent Neural Network) ?;3;Réseau convolutif|Réseau simple|Réseau pour séquences|Réseau pour images;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce qu'un LSTM (Long Short-Term Memory) ?;4;CNN|Perceptron|RNN simple|RNN avec mémoire à long terme;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce qu'un GRU (Gated Recurrent Unit) ?;2;CNN|Variante simplifiée de LSTM|Perceptron|Réseau simple;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce qu'un autoencoder ?;3;CNN|RNN|Réseau pour compression et reconstruction|GAN;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce qu'un GAN (Generative Adversarial Network) ?;4;CNN|RNN|Autoencoder|Deux réseaux en compétition pour générer des données;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que le transfer learning ?;2;Apprentissage simple|Réutilisation d'un modèle pré-entraîné|Apprentissage supervisé|Apprentissage non supervisé;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que le fine-tuning ?;3;Entraînement complet|Transfer learning|Ajustement d'un modèle pré-entraîné|Régularisation;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que la convolution ?;4;Activation|Pooling|Normalisation|Opération de filtrage pour extraire des caractéristiques;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que le pooling ?;2;Convolution|Réduction de dimensionnalité|Activation|Normalisation;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que le max pooling ?;3;Average pooling|Min pooling|Sélection de la valeur maximale|Sum pooling;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que la batch normalization ?;4;Activation|Convolution|Pooling|Normalisation des activations par batch;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que ResNet ?;2;RNN|Architecture CNN avec connexions résiduelles|GAN|Autoencoder;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que l'attention mechanism ?;3;Convolution|Pooling|Mécanisme pour se concentrer sur des parties importantes|Activation;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce qu'un Transformer ?;4;CNN|RNN|GAN|Architecture basée sur l'attention;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que BERT ?;2;CNN|Modèle de langage basé sur Transformer|RNN|GAN;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que GPT ?;3;CNN|RNN|Modèle de langage génératif|GAN;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que le word embedding ?;4;Convolution|Pooling|Activation|Représentation vectorielle des mots;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que Word2Vec ?;2;CNN|Technique de word embedding|RNN|GAN;1
+Intelligence Artificielle;Deep Learning;QCM;Qu'est-ce que l'augmentation de données ?;3;Réduction|Normalisation|Création de nouvelles données par transformation|Régularisation;1
+Intelligence Artificielle;Introduction;Exercice;Expliquez la différence entre apprentissage supervisé, non supervisé et par renforcement avec des exemples.;-1;-;15
+Intelligence Artificielle;Algorithmes;Exercice;Implémentez un algorithme k-NN pour classifier des données et évaluez ses performances.;-1;-;15
+Intelligence Artificielle;Deep Learning;Exercice;Expliquez l'architecture d'un CNN et son utilité pour le traitement d'images.;-1;-;15
+Intelligence Artificielle;Optimisation;Exercice;Expliquez le fonctionnement de la rétropropagation et du gradient descent.;-1;-;15
+Intelligence Artificielle;Évaluation;Exercice;Décrivez les métriques d'évaluation (précision, rappel, F1-score) et leur utilisation.;-1;-;15
+
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce que la cryptographie ?;2;Compression|Science du chiffrement|Réseau|Base de données;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce que le chiffrement symétrique ?;3;Deux clés|Pas de clé|Même clé pour chiffrer et déchiffrer|Clé publique;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce que le chiffrement asymétrique ?;4;Une clé|Pas de clé|Même clé|Deux clés (publique et privée);1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce que AES ?;2;Algorithme asymétrique|Algorithme de chiffrement symétrique|Fonction de hachage|Protocole;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce que RSA ?;3;Algorithme symétrique|Fonction de hachage|Algorithme de chiffrement asymétrique|Protocole;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce qu'une fonction de hachage ?;4;Chiffrement|Compression|Protocole|Fonction à sens unique;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce que SHA-256 ?;2;Chiffrement|Fonction de hachage|Protocole|Compression;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce que MD5 ?;3;Chiffrement|Protocole|Fonction de hachage (obsolète)|Compression;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce qu'une collision en hachage ?;4;Erreur|Bug|Optimisation|Deux entrées donnent le même hash;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce qu'un sel (salt) ?;2;Algorithme|Donnée aléatoire ajoutée avant hachage|Clé|Protocole;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce qu'une signature numérique ?;3;Chiffrement|Hash|Preuve d'authenticité et d'intégrité|Compression;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce qu'un certificat numérique ?;4;Clé|Hash|Signature|Document prouvant l'identité;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce qu'une PKI (Public Key Infrastructure) ?;2;Algorithme|Infrastructure de gestion de clés publiques|Protocole|Fonction;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce qu'une autorité de certification (CA) ?;3;Algorithme|Protocole|Entité émettant des certificats|Fonction;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce que le chiffrement de bout en bout ?;4;Chiffrement partiel|Pas de chiffrement|Chiffrement serveur|Chiffrement du début à la fin de la communication;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce que Diffie-Hellman ?;2;Chiffrement|Protocole d'échange de clés|Fonction de hachage|Signature;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce que l'attaque par force brute ?;3;Attaque réseau|Attaque sociale|Essai de toutes les combinaisons possibles|Attaque par injection;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce qu'une attaque par dictionnaire ?;4;Force brute|Attaque réseau|Attaque sociale|Essai de mots de passe courants;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce que le chiffrement homomorphe ?;2;Chiffrement simple|Chiffrement permettant des calculs sur données chiffrées|Chiffrement rapide|Chiffrement faible;1
+Sécurité Informatique;Cryptographie;QCM;Qu'est-ce que la stéganographie ?;3;Chiffrement|Compression|Dissimulation d'information dans un support|Hachage;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'une attaque DDoS ?;2;Virus|Déni de service distribué|Phishing|Injection SQL;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce que le phishing ?;3;Virus|DDoS|Hameçonnage (vol d'informations)|Malware;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'une injection SQL ?;4;Virus|DDoS|Phishing|Insertion de code SQL malveillant;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'une attaque XSS (Cross-Site Scripting) ?;2;Injection SQL|Injection de script dans une page web|DDoS|Phishing;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'une attaque CSRF (Cross-Site Request Forgery) ?;3;XSS|Injection SQL|Exécution d'actions non autorisées|DDoS;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'une attaque Man-in-the-Middle ?;4;DDoS|Phishing|XSS|Interception de communication;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'un ransomware ?;2;Virus simple|Malware qui chiffre les données et demande une rançon|Phishing|DDoS;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'un trojan (cheval de Troie) ?;3;Virus|Ransomware|Malware déguisé en logiciel légitime|Phishing;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'un rootkit ?;4;Virus|Ransomware|Trojan|Malware qui cache sa présence;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'un botnet ?;2;Virus|Réseau d'ordinateurs infectés contrôlés à distance|Ransomware|Phishing;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce que le social engineering ?;3;Attaque technique|Attaque réseau|Manipulation psychologique pour obtenir des informations|Attaque par force brute;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'une attaque zero-day ?;4;Attaque ancienne|Attaque connue|Attaque simple|Exploitation d'une vulnérabilité inconnue;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'un exploit ?;2;Virus|Code exploitant une vulnérabilité|Phishing|DDoS;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'une backdoor ?;3;Virus|Ransomware|Porte dérobée pour accès non autorisé|Phishing;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce que le spoofing ?;4;Virus|Ransomware|Phishing|Usurpation d'identité;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'une attaque par dépassement de tampon ?;2;Injection SQL|Écriture au-delà de la mémoire allouée|XSS|DDoS;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'une attaque par rejeu (replay attack) ?;3;DDoS|Phishing|Réutilisation de données interceptées|XSS;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce que le credential stuffing ?;4;Phishing|DDoS|XSS|Utilisation de mots de passe volés sur d'autres sites;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'une attaque par timing ?;2;DDoS|Analyse du temps d'exécution pour extraire des informations|Phishing|XSS;1
+Sécurité Informatique;Attaques;QCM;Qu'est-ce qu'une attaque par canal auxiliaire ?;3;DDoS|Phishing|Exploitation d'informations indirectes (temps, consommation)|XSS;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce qu'un firewall ?;2;Antivirus|Pare-feu filtrant le trafic|VPN|IDS;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce qu'un IDS (Intrusion Detection System) ?;3;Firewall|Antivirus|Système de détection d'intrusion|VPN;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce qu'un IPS (Intrusion Prevention System) ?;4;Firewall|Antivirus|IDS|Système de prévention d'intrusion;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce qu'un antivirus ?;2;Firewall|Logiciel de détection de malwares|IDS|VPN;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce qu'un VPN ?;3;Firewall|Antivirus|Réseau privé virtuel|IDS;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce que l'authentification à deux facteurs (2FA) ?;4;Un mot de passe|Biométrie|Carte|Deux méthodes de vérification;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce que l'authentification multi-facteurs (MFA) ?;2;Un facteur|Plusieurs facteurs de vérification|Deux facteurs|Pas d'authentification;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce que le principe du moindre privilège ?;3;Tout autoriser|Tout interdire|Donner le minimum de droits nécessaires|Accès aléatoire;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce qu'une DMZ (Zone Démilitarisée) ?;4;Firewall|VPN|IDS|Réseau intermédiaire entre interne et externe;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce qu'un honeypot ?;2;Firewall|Système leurre pour attirer les attaquants|Antivirus|VPN;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce que le sandboxing ?;3;Firewall|Antivirus|Exécution isolée de code suspect|VPN;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce que le whitelisting ?;4;Blacklisting|Firewall|Antivirus|Autorisation uniquement de ce qui est listé;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce que le blacklisting ?;2;Whitelisting|Blocage de ce qui est listé|Firewall|Antivirus;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce que le SIEM (Security Information and Event Management) ?;3;Firewall|Antivirus|Système de gestion centralisée de la sécurité|VPN;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce que le patch management ?;4;Firewall|Antivirus|VPN|Gestion des mises à jour de sécurité;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce que le hardening ?;2;Affaiblissement|Renforcement de la sécurité d'un système|Firewall|Antivirus;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce que la segmentation réseau ?;3;Firewall|VPN|Division du réseau en segments isolés|Antivirus;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce que le chiffrement des données au repos ?;4;Chiffrement en transit|Pas de chiffrement|Chiffrement partiel|Chiffrement des données stockées;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce que le chiffrement des données en transit ?;2;Chiffrement au repos|Chiffrement des données en mouvement|Pas de chiffrement|Chiffrement partiel;1
+Sécurité Informatique;Défense;QCM;Qu'est-ce qu'un audit de sécurité ?;3;Attaque|Défense|Évaluation de la sécurité d'un système|Firewall;1
+Sécurité Informatique;Cryptographie;Exercice;Expliquez la différence entre chiffrement symétrique et asymétrique avec des exemples d'utilisation.;-1;-;15
+Sécurité Informatique;Attaques;Exercice;Décrivez une attaque par injection SQL et comment s'en protéger avec des exemples de code.;-1;-;15
+Sécurité Informatique;Défense;Exercice;Concevez une architecture de sécurité en profondeur pour une application web.;-1;-;15
+Sécurité Informatique;Authentification;Exercice;Implémentez un système d'authentification à deux facteurs et expliquez son fonctionnement.;-1;-;15
+Sécurité Informatique;Analyse;Exercice;Analysez les vulnérabilités OWASP Top 10 et proposez des contre-mesures pour chacune.;-1;-;15

@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1759777908 source:c:\users\hp x360 i5\desktop\lang c\generateurepreuve\database.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"database.h"
+
+1759777928 c:\users\hp x360 i5\desktop\lang c\generateurepreuve\database.h
+	"structures.h"
+
+1759667242 c:\users\hp x360 i5\desktop\lang c\generateurepreuve\structures.h
+
+1759695313 source:c:\users\hp x360 i5\desktop\lang c\generateurepreuve\generator.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"generator.h"
+
+1759695345 c:\users\hp x360 i5\desktop\lang c\generateurepreuve\generator.h
+	"structures.h"
+
+1759914618 source:c:\users\hp x360 i5\desktop\lang c\generateurepreuve\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"structures.h"
+	"database.h"
+	"generator.h"
